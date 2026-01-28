@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream: #f7f3ec;
+  --color-forest: #1f3b2c;
+  --color-mist: #eef3ee;
+  --color-sage: #cbd6c1;
+  --color-charcoal: #1f1d1a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100%;
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+  background-image: radial-gradient(circle at 15% 10%, rgba(203, 214, 193, 0.35), transparent 45%);
+}
+
+::selection {
+  background: rgba(31, 59, 44, 0.2);
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s ease both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-fade-up {
+    animation: none;
+  }
+}
+
+@layer utilities {
+  .section-space {
+    @apply py-16 md:py-24;
+  }
+  .card-surface {
+    @apply rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft;
+  }
+}
