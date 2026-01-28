@@ -20,6 +20,38 @@ export default function AboutPage() {
         secondaryCta={{ label: "Explore services", href: "/services" }}
       />
       <section className="section-space">
+        <Container className="grid items-center gap-10 lg:grid-cols-[0.9fr_1fr]">
+          <div className="order-2 space-y-4 text-sm text-forest/75 lg:order-1">
+            <SectionHeading
+              eyebrow="Bio"
+              title="A brief introduction."
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris.
+            </p>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div className="order-1 lg:order-2">
+            <div className="overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
+              <img
+                src="/images/vince-batters.jpg"
+                alt="Portrait of Vince Batters"
+                className="h-full w-full object-cover"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      <section className="section-space">
         <Container className="grid gap-10 lg:grid-cols-[1fr_0.9fr]">
           <SectionHeading
             eyebrow="Values and approach"
