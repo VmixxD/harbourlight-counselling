@@ -20,7 +20,7 @@ export function ServiceCard({ service, className }: ServiceCardProps) {
     <Link
       href={`/services/${service.slug}`}
       className={cn(
-        "group rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft transition-transform hover:-translate-y-1",
+        "group block h-full rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft transition-transform hover:-translate-y-1",
         className
       )}
     >

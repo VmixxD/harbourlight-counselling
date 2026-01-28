@@ -21,7 +21,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-soft-linear py-20">
         <div className="absolute inset-0 bg-soft-radial opacity-80" />
         <Container className="relative grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
-          <div className="space-y-6 animate-fade-up">
+          <div className="space-y-6 motion-safe:animate-fade-up">
             <p className="text-xs uppercase tracking-[0.3em] text-forest/60">Harbourlight Counselling</p>
             <h1 className="font-heading text-4xl text-forest md:text-5xl">
               Counselling for identity, relationships, and burnout.
@@ -38,8 +38,15 @@ export default function HomePage() {
             </p>
           </div>
           <div className="relative">
-            <div className="aspect-[4/5] rounded-2xl border border-sage/50 bg-[linear-gradient(140deg,#f7f3ec,#d8c8b4)] shadow-lift" />
-            <div className="absolute -bottom-6 left-6 rounded-2xl border border-sage/50 bg-white/80 p-4 text-sm text-forest shadow-soft">
+            <div className="overflow-hidden rounded-2xl border border-sage/50 shadow-lift">
+              <img
+                src="/images/harbourlight.png"
+                alt="Misty coastal forest with morning light"
+                className="aspect-[4/5] w-full object-cover"
+                loading="lazy"
+              />
+            </div>
+            <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 rounded-2xl border border-sage/50 bg-white/80 p-4 text-sm text-forest shadow-soft lg:w-max lg:whitespace-nowrap">
               Calm, grounded support with clear next steps.
             </div>
           </div>
@@ -68,7 +75,7 @@ export default function HomePage() {
           <div className="order-1 lg:order-2">
             <div className="overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
               <img
-                src="/images/vince-batters.jpg"
+                src="/images/vince-batters.png"
                 alt="Portrait of Vince Batters"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -113,7 +120,7 @@ export default function HomePage() {
             {services.map((service, index) => (
               <div
                 key={service.slug}
-                className="animate-fade-up"
+                className="motion-safe:animate-fade-up"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <ServiceCard service={service} />

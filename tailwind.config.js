@@ -30,6 +30,15 @@ module.exports = {
           "radial-gradient(circle at top right, rgba(203, 214, 193, 0.45), rgba(247, 243, 236, 0))",
         "soft-linear":
           "linear-gradient(135deg, rgba(247, 243, 236, 0.85), rgba(239, 245, 239, 0.95))"
+      },
+      keyframes: {
+        "fade-up": {
+          "0%": { opacity: "0", transform: "translateY(12px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" }
+        }
+      },
+      animation: {
+        "fade-up": "fade-up 0.7s ease both"
       }
     }
   },
