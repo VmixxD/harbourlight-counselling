@@ -699,6 +699,9 @@ video {
 .w-full {
   width: 100%;
 }
+.w-4\/5 {
+  width: 80%;
+}
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -851,9 +854,6 @@ video {
 }
 .bg-white\/80 {
   background-color: rgb(255 255 255 / 0.8);
-}
-.bg-\[linear-gradient\(140deg\2c \#f7f3ec\2c \#d8c8b4\)\] {
-  background-image: linear-gradient(140deg,#f7f3ec,#d8c8b4);
 }
 .bg-soft-linear {
   background-image: linear-gradient(135deg, rgba(247, 243, 236, 0.85), rgba(239, 245, 239, 0.95));

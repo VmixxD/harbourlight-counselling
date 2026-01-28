@@ -39,7 +39,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="order-1 lg:order-2">
-            <div className="overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
+            <div className="mx-auto w-4/5 overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
               <img
                 src="/images/vince-batters.png"
                 alt="Portrait of Vince Batters"
