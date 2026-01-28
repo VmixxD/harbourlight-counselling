@@ -41,7 +41,7 @@ export default function AboutPage() {
           <div className="order-1 lg:order-2">
             <div className="overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
               <img
-                src="/images/vince-batters.jpg"
+                src="/images/vince-batters.png"
                 alt="Portrait of Vince Batters"
                 className="h-full w-full object-cover"
                 loading="lazy"
