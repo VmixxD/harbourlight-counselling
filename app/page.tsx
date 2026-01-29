@@ -22,7 +22,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-soft-radial opacity-80" />
         <Container className="relative grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="space-y-6 motion-safe:animate-fade-up lg:max-w-xl">
-            <p className="text-xs uppercase tracking-[0.3em] text-forest/60">Harbourlight Counselling</p>
+            <p className="text-xs uppercase tracking-[0.22em] text-forest/60">Harbourlight Counselling</p>
             <h1 className="font-heading text-4xl text-forest md:text-5xl">
               Counselling for identity, relationships, and burnout.
             </h1>

@@ -7,7 +7,7 @@ export default function NotFound() {
   return (
     <section className="section-space">
       <Container className="space-y-6 text-center">
-        <p className="text-xs uppercase tracking-[0.3em] text-forest/60">Page not found</p>
+        <p className="text-xs uppercase tracking-[0.22em] text-forest/60">Page not found</p>
         <h1 className="font-heading text-4xl text-forest">We could not find that page.</h1>
         <p className="text-base text-forest/70">
           If you arrived here by mistake, head back to the home page.

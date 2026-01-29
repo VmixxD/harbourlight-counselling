@@ -11,7 +11,8 @@ module.exports = {
         forest: "#1f3b2c",
         clay: "#d8c8b4",
         charcoal: "#1f1d1a",
-        sun: "#f2ddbe"
+        sun: "#f2ddbe",
+        danger: "#8b2f2f"
       },
       fontFamily: {
         heading: ["var(--font-fraunces)", "ui-serif", "serif"],

@@ -27,7 +27,7 @@ export const generalFaqs = [
   {
     question: "How long are sessions and how often?",
     answer:
-      "Sessions are typically 50 minutes. Frequency is flexible and can be weekly, fortnightly, or as needed."
+      "Sessions are 50 minutes. Frequency is flexible and can be weekly, fortnightly, or as needed."
   },
   {
     question: "What if I need urgent help?",

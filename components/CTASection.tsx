@@ -10,7 +10,7 @@ type CTASectionProps = {
 
 export function CTASection({
   title = "Ready to take a gentle first step?",
-  description = "Book a free 15-minute consult or send an enquiry. We will work at your pace."
+  description = "Choose the option that feels easiest. I will respond within the stated timeframe."
 }: CTASectionProps) {
   return (
     <section className="bg-mist py-16">

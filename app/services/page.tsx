@@ -59,8 +59,7 @@ export default function ServicesPage() {
             </ul>
             <Callout title="Not sure where to start?" tone="soft">
               <p>
-                Book a free consult and we can decide together which service area feels like the
-                best fit.
+                {`${site.primaryCta} and we can decide together which service area feels like the best fit.`}
               </p>
             </Callout>
           </div>

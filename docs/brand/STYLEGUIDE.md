@@ -18,6 +18,7 @@ Core colors:
 - clay: #d8c8b4 (warm neutral accent)
 - charcoal: #1f1d1a (body text)
 - sun: #f2ddbe (warm highlight)
+- danger: #8b2f2f (error text only)
 
 Role mapping (use these consistently):
 - Background: cream (primary), mist (secondary), white/80 for cards
@@ -25,6 +26,7 @@ Role mapping (use these consistently):
 - Border: sage/50
 - CTA: forest background with cream text
 - Focus ring: forest/50 with cream offset
+- Status: danger for error messaging only (avoid for decorative use)
 
 Accessibility guidance:
 - Ensure text contrast meets WCAG 2.2 AA (4.5:1 for body text).

@@ -15,7 +15,7 @@ export default function ContactPage() {
     <>
       <PageHeader
         title="Contact"
-        intro="Send a note or book a free consult. I will respond within the stated timeframe."
+        intro={`Reach out in the way that feels easiest. ${site.primaryCta} or ${site.secondaryCta.toLowerCase()}. I will respond within the stated timeframe.`}
         primaryCta={{ label: site.primaryCta, href: "/book" }}
         secondaryCta={{ label: "View services", href: "/services" }}
       />

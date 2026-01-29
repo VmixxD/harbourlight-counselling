@@ -13,7 +13,7 @@ export const site = {
   primaryCta: "Book a free 15-min consult",
   secondaryCta: "Send an enquiry",
   bookingUrl: process.env.NEXT_PUBLIC_BOOKING_URL || "https://calendly.com/your-link",
-  sessionLength: "50 minutes (option for 75 minutes)",
+  sessionLength: "50 minutes",
   fees: "Pricing to be confirmed before launch. Please enquire for current rates.",
   slidingScale:
     "Limited sliding scale spots are available. If cost is a barrier, reach out and we will explore options.",

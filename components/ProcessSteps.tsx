@@ -20,7 +20,7 @@ export function ProcessSteps() {
     <ol className="grid gap-6 md:grid-cols-3">
       {steps.map((step, index) => (
         <li key={step.title} className="rounded-2xl border border-sage/50 bg-white/70 p-6 shadow-soft">
-          <p className="text-xs uppercase tracking-[0.25em] text-forest/60">Step {index + 1}</p>
+          <p className="text-xs uppercase tracking-[0.22em] text-forest/60">Step {index + 1}</p>
           <h3 className="mt-3 font-heading text-2xl text-forest">{step.title}</h3>
           <p className="mt-2 text-sm text-forest/70">{step.description}</p>
         </li>

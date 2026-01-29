@@ -152,7 +152,7 @@ export function EnquiryForm() {
           </p>
         )}
         {status === "error" && (
-          <p className="text-sm text-red-600" role="status" aria-live="polite">
+          <p className="text-sm text-danger" role="status" aria-live="polite">
             {error}
           </p>
         )}

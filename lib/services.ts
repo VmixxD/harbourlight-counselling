@@ -104,12 +104,12 @@ export const services: Service[] = [
       "We track small changes and celebrate progress without overpromising"
     ],
     fit: [
-      "You want to understand patterns, not just manage symptoms",
+      "You want to understand patterns, not just manage the impact",
       "You are open to practising new skills between sessions",
       "You want a balanced blend of warmth and structure"
     ],
     notFit: [
-      "You are looking for couples therapy (I currently work with individuals)",
+      "You are looking for couples counselling (I currently work with individuals)",
       "You need crisis intervention or immediate safety planning"
     ],
     faq: [
@@ -164,7 +164,7 @@ export const services: Service[] = [
       "You want to make changes without burning everything down"
     ],
     notFit: [
-      "You need immediate medical support for acute burnout symptoms",
+      "You need immediate medical support for acute burnout impacts",
       "You require specialist workplace assessments or reports"
     ],
     faq: [
