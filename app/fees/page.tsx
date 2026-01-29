@@ -21,22 +21,32 @@ export default function FeesPage() {
       />
 
       <section className="section-space">
-        <Container className="grid gap-10 lg:grid-cols-[1fr_0.9fr]">
-          <SectionHeading
-            eyebrow="Session options"
-            title="Session length and pricing"
-            description="Payment details can be confirmed during your consult."
-          />
-          <div className="space-y-4">
-            <div className="rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
-              <p className="font-semibold text-forest">Standard session</p>
-              <p className="mt-2">{site.sessionLength}</p>
-              <p className="mt-2">{site.fees}</p>
+        <Container className="grid items-start gap-10 lg:grid-cols-[1.1fr_0.9fr]">
+          <div className="space-y-6">
+            <SectionHeading
+              eyebrow="Session options"
+              title="Session length and pricing"
+              description="Payment details can be confirmed during your consult."
+            />
+            <div className="space-y-4">
+              <div className="rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
+                <p className="font-semibold text-forest">Standard session</p>
+                <p className="mt-2">{site.sessionLength}</p>
+                <p className="mt-2">{site.fees}</p>
+              </div>
+              <div className="rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
+                <p className="font-semibold text-forest">Payment</p>
+                <p className="mt-2">Payment details will be provided when we confirm your booking.</p>
+              </div>
             </div>
-            <div className="rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
-              <p className="font-semibold text-forest">Payment</p>
-              <p className="mt-2">Payment details will be provided when we confirm your booking.</p>
-            </div>
+          </div>
+          <div className="mx-auto w-full max-w-sm overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
+            <img
+              src="/images/hlc-fees-gradient-wash.png"
+              alt="Soft gradient wash in warm cream and sage"
+              className="aspect-[3/4] w-full object-cover"
+              loading="lazy"
+            />
           </div>
         </Container>
       </section>

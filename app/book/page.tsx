@@ -67,21 +67,31 @@ export default function BookPage() {
       </section>
 
       <section className="section-space">
-        <Container className="grid gap-6 lg:grid-cols-[1fr_0.9fr]">
-          <SectionHeading
-            eyebrow="What happens next"
-            title="A simple, supportive process."
-            description="You remain in control of the pace and the decision to proceed."
-          />
-          <div className="space-y-4 text-sm text-forest/75">
-            <ul className="space-y-2 rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
-              <li>You will receive an email confirming your enquiry.</li>
-              <li>We schedule a short consult or discuss next steps by email.</li>
-              <li>If we are not a fit, I can help you consider other options.</li>
-            </ul>
-            <Callout title="Crisis support" tone="soft">
-              <p>{site.crisisLine}</p>
-            </Callout>
+        <Container className="grid items-start gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+          <div className="space-y-6">
+            <SectionHeading
+              eyebrow="What happens next"
+              title="A simple, supportive process."
+              description="You remain in control of the pace and the decision to proceed."
+            />
+            <div className="space-y-4 text-sm text-forest/75">
+              <ul className="space-y-2 rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
+                <li>You will receive an email confirming your enquiry.</li>
+                <li>We schedule a short consult or discuss next steps by email.</li>
+                <li>If we are not a fit, I can help you consider other options.</li>
+              </ul>
+              <Callout title="Crisis support" tone="soft">
+                <p>{site.crisisLine}</p>
+              </Callout>
+            </div>
+          </div>
+          <div className="mx-auto w-full max-w-sm overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
+            <img
+              src="/images/hlc-contact-harbour-horizon.png"
+              alt="Harbour horizon line with soft fog"
+              className="aspect-[3/4] w-full object-cover"
+              loading="lazy"
+            />
           </div>
         </Container>
       </section>

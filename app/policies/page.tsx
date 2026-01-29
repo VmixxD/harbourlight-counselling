@@ -50,6 +50,14 @@ export default function PoliciesPage() {
             title="Everything you need in one place."
             description="These pages keep expectations clear and protect your wellbeing."
           />
+          <div className="overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
+            <img
+              src="/images/hlc-policies-geometric-layers.png"
+              alt="Soft geometric layers in sage and warm neutrals"
+              className="h-56 w-full object-cover sm:h-64"
+              loading="lazy"
+            />
+          </div>
           <div className="grid gap-6 md:grid-cols-2">
             {policyCards.map((policy, index) => (
               <div

@@ -17,6 +17,11 @@ export default function CancellationPage() {
         intro="Clear boundaries protect your time and mine."
         primaryCta={{ label: site.primaryCta, href: "/book" }}
         secondaryCta={{ label: "Contact", href: "/contact" }}
+        image={{
+          src: "/images/hlc-policy-cancellation-calendar.png",
+          alt: "Minimal calendar page in warm light",
+          wrapperClassName: "aspect-[4/5]"
+        }}
       />
 
       <section className="section-space">

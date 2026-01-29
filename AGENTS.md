@@ -91,3 +91,22 @@ Each service page must include:
 - Service area wording (online NZ-wide; in-person Auckland optional)
 - Preferred contact method + response time
 - Booking tool choice (embed vs link)
+
+## Image prompt library (AI-assisted visuals)
+Use calm, nature-forward, warm neutrals + greens, soft light, minimal compositions, no people/text.
+
+- Home hero (main image): "Soft coastal harbour at dawn, mist rolling over calm water, muted sage and forest greens, warm cream light, gentle grain, minimalist composition, soothing mood, wide landscape, no people, no text."
+- Home hero alternate: "Native NZ bush trail after light rain, soft fog, filtered morning sun, mossy greens and warm neutrals, serene, minimal, cinematic depth, no people."
+- About page (secondary image): "Abstract organic shapes in layered sage, moss, and warm cream, subtle paper texture, soft shadows, minimal, calming."
+- Services hub banner: "Triptych-style collage of nature textures: harbour water, fern canopy, sunlit sand, cohesive palette, soft light, modern editorial feel."
+- Service hero (Identity & Shame): "Single fern unfurling with soft light, shallow depth of field, muted greens and warm beige, symbol of gentleness and growth, no people."
+- Service hero (Relationships): "Two stones balanced on a tidal rock, gentle ripples, warm dawn light, calming symmetry, muted palette, no people."
+- Service hero (Burnout & Work Stress): "Quiet forest clearing with soft golden light breaking through, subtle haze, restorative mood, muted greens and warm cream, no people."
+- Fees page background: "Minimal gradient wash from warm cream to soft sage, subtle paper texture, modern calm."
+- FAQ header: "Close-up of ripples in still water, soft light, monochrome sage/cream palette, minimal composition."
+- Policies hub banner: "Soft geometric shapes layered like translucent paper, forest green accents, warm neutral base, clean and trustworthy."
+- Online safety header: "Desk by a window with soft light, closed laptop, cup of tea, minimal, calm, no visible brand logos."
+- Privacy header: "Abstract lock icon formed by overlapping leaves, minimal vector-style illustration, sage/forest palette."
+- Cancellation header: "Simple calendar page with soft shadows on warm neutral background, minimal, calm."
+- Informed consent header: "Open notebook with blank page, soft light, warm neutral tones, minimal styling."
+- Contact/Book side image: "Harbour horizon line with soft fog, gentle gradient sky, tranquil mood, no people."

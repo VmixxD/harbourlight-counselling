@@ -27,6 +27,14 @@ export default function ServicesPage() {
             title="Focused support for common themes."
             description="Each service blends warmth, structure, and practical guidance."
           />
+          <div className="overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
+            <img
+              src="/images/hlc-services-textures-triptych.png"
+              alt="Collage of coastal water, fern canopy, and sunlit sand textures"
+              className="h-56 w-full object-cover sm:h-64"
+              loading="lazy"
+            />
+          </div>
           <div className="grid gap-6 md:grid-cols-3">
             {services.map((service) => (
               <ServiceCard key={service.slug} service={service} />

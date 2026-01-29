@@ -51,25 +51,35 @@ export default function AboutPage() {
       </section>
 
       <section className="section-space">
-        <Container className="grid gap-10 lg:grid-cols-[1fr_0.9fr]">
-          <SectionHeading
-            eyebrow="Values and approach"
-            title="Warm, practical, and affirming."
-            description="I work in a relational, trauma-informed way that balances emotional depth with clear next steps."
-          />
-          <ul className="space-y-3 rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
-            {[
-              "LGBTQ+ affirming and neurodiversity-affirming",
-              "Te Tiriti-aligned values: manaakitanga, relational safety, respect, and choice",
-              "Plain language, no jargon, and no guarantees",
-              "A steady pace that honours your nervous system"
-            ].map((item) => (
-              <li key={item} className="flex gap-3">
-                <span className="mt-1 h-2 w-2 rounded-full bg-forest" />
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
+        <Container className="grid items-start gap-10 lg:grid-cols-[1.1fr_0.9fr]">
+          <div className="space-y-6">
+            <SectionHeading
+              eyebrow="Values and approach"
+              title="Warm, practical, and affirming."
+              description="I work in a relational, trauma-informed way that balances emotional depth with clear next steps."
+            />
+            <ul className="space-y-3 rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
+              {[
+                "LGBTQ+ affirming and neurodiversity-affirming",
+                "Te Tiriti-aligned values: manaakitanga, relational safety, respect, and choice",
+                "Plain language, no jargon, and no guarantees",
+                "A steady pace that honours your nervous system"
+              ].map((item) => (
+                <li key={item} className="flex gap-3">
+                  <span className="mt-1 h-2 w-2 rounded-full bg-forest" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="mx-auto w-full max-w-sm overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
+            <img
+              src="/images/hlc-about-abstract-shapes.png"
+              alt="Abstract layered shapes in sage and warm neutrals"
+              className="aspect-[3/4] w-full object-cover"
+              loading="lazy"
+            />
+          </div>
         </Container>
       </section>
 

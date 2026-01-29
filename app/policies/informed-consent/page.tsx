@@ -17,6 +17,11 @@ export default function InformedConsentPage() {
         intro="We agree on how counselling works together so you feel informed and in control."
         primaryCta={{ label: site.primaryCta, href: "/book" }}
         secondaryCta={{ label: "Contact", href: "/contact" }}
+        image={{
+          src: "/images/hlc-policy-consent-notebook.png",
+          alt: "Open notebook in soft, warm light",
+          wrapperClassName: "aspect-[4/5]"
+        }}
       />
 
       <section className="section-space">

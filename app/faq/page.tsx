@@ -27,6 +27,14 @@ export default function FaqPage() {
             title="If you are unsure, start here."
             description="You are welcome to ask anything in a consult as well."
           />
+          <div className="overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
+            <img
+              src="/images/hlc-faq-water-ripples.png"
+              alt="Gentle ripples on still water"
+              className="h-56 w-full object-cover sm:h-64"
+              loading="lazy"
+            />
+          </div>
           <FaqAccordion items={generalFaqs} />
           <Button href="/book" variant="ghost">
             Book a consult

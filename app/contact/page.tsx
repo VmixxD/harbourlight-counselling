@@ -20,22 +20,32 @@ export default function ContactPage() {
         secondaryCta={{ label: "View services", href: "/services" }}
       />
       <section className="section-space">
-        <Container className="grid gap-10 lg:grid-cols-[1fr_0.9fr]">
-          <SectionHeading
-            eyebrow="Get in touch"
-            title="A calm, low-pressure start."
-            description="You are welcome to ask questions or share what you are hoping for."
-          />
-          <div className="space-y-4 text-sm text-forest/75">
-            <Callout title="Contact details" tone="soft">
-              <p>Email: {site.email}</p>
-              <p>Location: {site.location}</p>
-              <p>Service area: {site.serviceArea}</p>
-              <p>Response time: {site.responseTime}</p>
-            </Callout>
-            <Callout title="Crisis support" tone="soft">
-              <p>{site.crisisLine}</p>
-            </Callout>
+        <Container className="grid items-start gap-10 lg:grid-cols-[1.1fr_0.9fr]">
+          <div className="space-y-6">
+            <SectionHeading
+              eyebrow="Get in touch"
+              title="A calm, low-pressure start."
+              description="You are welcome to ask questions or share what you are hoping for."
+            />
+            <div className="space-y-4 text-sm text-forest/75">
+              <Callout title="Contact details" tone="soft">
+                <p>Email: {site.email}</p>
+                <p>Location: {site.location}</p>
+                <p>Service area: {site.serviceArea}</p>
+                <p>Response time: {site.responseTime}</p>
+              </Callout>
+              <Callout title="Crisis support" tone="soft">
+                <p>{site.crisisLine}</p>
+              </Callout>
+            </div>
+          </div>
+          <div className="mx-auto w-full max-w-sm overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
+            <img
+              src="/images/hlc-contact-harbour-horizon.png"
+              alt="Harbour horizon line with soft fog"
+              className="aspect-[3/4] w-full object-cover"
+              loading="lazy"
+            />
           </div>
         </Container>
       </section>

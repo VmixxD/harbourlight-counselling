@@ -17,6 +17,11 @@ export default function OnlineSafetyPage() {
         intro="Simple steps to keep online sessions private, steady, and supportive."
         primaryCta={{ label: site.primaryCta, href: "/book" }}
         secondaryCta={{ label: "Contact", href: "/contact" }}
+        image={{
+          src: "/images/hlc-policy-online-safety-desk.png",
+          alt: "Calm desk by a window with soft light",
+          wrapperClassName: "aspect-[4/5]"
+        }}
       />
 
       <section className="section-space">

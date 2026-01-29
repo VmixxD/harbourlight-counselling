@@ -17,6 +17,12 @@ export default function PrivacyPage() {
         intro="Your information is treated with care and only collected for counselling purposes."
         primaryCta={{ label: site.primaryCta, href: "/book" }}
         secondaryCta={{ label: "Contact", href: "/contact" }}
+        image={{
+          src: "/images/hlc-policy-privacy-leaf-lock.png",
+          alt: "Abstract leaf lock illustration in sage tones",
+          wrapperClassName: "aspect-[3/4] bg-cream/70",
+          className: "h-full w-full object-contain p-6"
+        }}
       />
 
       <section className="section-space">

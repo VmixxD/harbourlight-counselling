@@ -13,6 +13,24 @@ type ServicePageProps = {
   params: { slug: string };
 };
 
+const serviceImages: Record<
+  string,
+  { src: string; alt: string; wrapperClassName?: string; className?: string }
+> = {
+  "identity-shame": {
+    src: "/images/hlc-service-identity-fern.png",
+    alt: "Fern frond unfurling in soft light"
+  },
+  relationships: {
+    src: "/images/hlc-service-relationships-stones.png",
+    alt: "Two stones balanced on a tidal rock with gentle ripples"
+  },
+  burnout: {
+    src: "/images/hlc-service-burnout-clearing.png",
+    alt: "Quiet forest clearing with soft golden light"
+  }
+};
+
 export function generateStaticParams() {
   return services.map((service) => ({ slug: service.slug }));
 }
@@ -39,6 +57,7 @@ export default function ServicePage({ params }: ServicePageProps) {
         intro={service.hero}
         primaryCta={{ label: site.primaryCta, href: "/book" }}
         secondaryCta={{ label: site.secondaryCta, href: "/contact" }}
+        image={serviceImages[service.slug]}
       />
 
       <section className="section-space">

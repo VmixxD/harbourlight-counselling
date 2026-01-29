@@ -21,7 +21,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-soft-linear py-20">
         <div className="absolute inset-0 bg-soft-radial opacity-80" />
         <Container className="relative grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
-          <div className="space-y-6 motion-safe:animate-fade-up">
+          <div className="space-y-6 motion-safe:animate-fade-up lg:max-w-xl">
             <p className="text-xs uppercase tracking-[0.3em] text-forest/60">Harbourlight Counselling</p>
             <h1 className="font-heading text-4xl text-forest md:text-5xl">
               Counselling for identity, relationships, and burnout.
@@ -33,20 +33,24 @@ export default function HomePage() {
                 {site.secondaryCta}
               </Button>
             </div>
-            <p className="text-sm text-forest/70">
-              {site.serviceArea} | LGBTQ+ affirming, trauma-informed, Te Tiriti values: manaakitanga, relational safety, respect, and choice.
-            </p>
+            <div className="space-y-1 text-sm text-forest/70">
+              <p>{site.serviceArea}</p>
+              <p>
+                LGBTQ+ affirming, trauma-informed, Te Tiriti values: manaakitanga, relational safety,
+                respect, and choice.
+              </p>
+            </div>
           </div>
           <div className="relative">
-            <div className="overflow-hidden rounded-2xl border border-sage/50 shadow-lift">
+            <div className="mx-auto w-full max-w-sm overflow-hidden rounded-2xl border border-sage/50 shadow-lift">
               <img
-                src="/images/harbourlight.png"
-                alt="Misty coastal forest with morning light"
-                className="aspect-[4/5] w-full object-cover"
+                src="/images/hlc-home-hero-harbour-dawn.png"
+                alt="Soft harbour at dawn with mist and warm light"
+                className="aspect-[3/4] w-full object-cover"
                 loading="lazy"
               />
             </div>
-            <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 rounded-2xl border border-sage/50 bg-white/80 p-4 text-sm text-forest shadow-soft lg:w-max lg:whitespace-nowrap">
+            <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 rounded-2xl border border-sage/50 bg-white/90 p-4 text-sm text-forest shadow-soft lg:w-max lg:whitespace-nowrap">
               Calm, grounded support with clear next steps.
             </div>
           </div>
@@ -84,26 +88,36 @@ export default function HomePage() {
       </section>
 
       <section className="section-space">
-        <Container className="grid gap-10 lg:grid-cols-[1fr_0.9fr]">
-          <SectionHeading
-            eyebrow="This might be for you if"
-            title="You are looking for support that feels steady, practical, and human."
-            description="Counselling can help you make sense of what is happening, lower self-criticism, and feel more connected to who you are."
-          />
-          <ul className="space-y-3 rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
-            {[
-              "You feel stuck in shame, self-criticism, or not good enough",
-              "Work stress or burnout is impacting your wellbeing and relationships",
-              "You want healthier boundaries or clearer communication",
-              "You are navigating identity, belonging, or big life transitions",
-              "You want counselling that is affirming, inclusive, and calm"
-            ].map((item) => (
-              <li key={item} className="flex gap-3">
-                <span className="mt-1 h-2 w-2 rounded-full bg-forest" />
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
+        <Container className="grid items-start gap-10 lg:grid-cols-[1.1fr_0.9fr]">
+          <div className="space-y-6">
+            <SectionHeading
+              eyebrow="This might be for you if"
+              title="You are looking for support that feels steady, practical, and human."
+              description="Counselling can help you make sense of what is happening, lower self-criticism, and feel more connected to who you are."
+            />
+            <ul className="space-y-3 rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
+              {[
+                "You feel stuck in shame, self-criticism, or not good enough",
+                "Work stress or burnout is impacting your wellbeing and relationships",
+                "You want healthier boundaries or clearer communication",
+                "You are navigating identity, belonging, or big life transitions",
+                "You want counselling that is affirming, inclusive, and calm"
+              ].map((item) => (
+                <li key={item} className="flex gap-3">
+                  <span className="mt-1 h-2 w-2 rounded-full bg-forest" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="mx-auto w-full max-w-sm overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
+            <img
+              src="/images/hlc-home-hero-bush-trail.png"
+              alt="Quiet native bush trail after light rain"
+              className="aspect-[3/4] w-full object-cover"
+              loading="lazy"
+            />
+          </div>
         </Container>
       </section>
 
