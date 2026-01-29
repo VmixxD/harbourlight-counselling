@@ -1,5 +1,9 @@
 # PRD — Harbourlight Counselling Website (UPDATED)
 
+Note: This PRD defines product scope, IA, compliance, and functional requirements. Brand voice, imagery, and visual system details live in:
+- docs/brand/BRAND_GUIDE.md
+- docs/brand/STYLEGUIDE.md
+
 ## 1) Product overview
 **Product name:** Harbourlight Counselling (Vince Batters)  
 **Type:** Individual counsellor website (lead-gen + online counselling intake)  
@@ -26,30 +30,10 @@
 - Neurodivergent clients (affirming tone, clear structure, predictable process).
 
 ## 3) Brand and positioning
-**Brand promise (conceptual):** A steady, warm, grounded space to reconnect with self and others.  
-**Tone:** Human, plain-language, calm, confident, non-clinical.
-
-**Therapeutic approach (must be reflected in all copy + structure):**
-- **Person-centred as the foundation:** relational safety, empathy, authenticity, client-led pacing.
-- **Pluralistic when helpful:** collaborative “what works for you?” stance; integrating gentle tools/structure when clients want that (e.g., values work, communication skills, grounding, parts/inner-critic work), without becoming rigid or overly clinical.
-- **Collaborative review:** regularly checking in on progress and fit, and adjusting together.
-
-**Positioning cues to weave through site:**
-- LGBTQ+ affirming, trauma-informed, neurodiversity-affirming, anti-oppressive.
-- Te Tiriti-aligned values (manaakitanga, relational safety, respect, choice).
-- Corporate background is an advantage for burnout/work stress clients.
+See `docs/brand/BRAND_GUIDE.md` for brand promise, tone, approach, and positioning cues. This PRD only references those requirements when they impact functional or content acceptance criteria.
 
 ## 4) Design direction
-**Reference style:** Ikigai Integrative vibe (clean, bold, friendly, modern).  
-**Your palette:** Nature greens + warm neutrals.
-
-### Visual system (guidelines)
-- Backgrounds: off-white / warm cream; sections with subtle green tint.
-- Accent greens: deep forest + softer sage (used sparingly).
-- Typography: modern sans-serif, highly readable; generous line-height.
-- Layout: lots of whitespace, strong hierarchy, scannable sections, short blocks.
-- Shape language: rounded corners (cards/buttons), soft shadows, calm animations.
-- Imagery: authentic headshot(s) + nature textures (harbour, bush, soft light). Avoid overly stocky “therapy office handshake” visuals.
+See `docs/brand/STYLEGUIDE.md` for the visual system, palette, typography, and UI conventions.
 
 ## 5) Information architecture
 
@@ -294,3 +278,4 @@ For Anxiety/Stress, Grief/Loss, Trauma/Recovery include a short visible section:
 - Preferred contact method + response time (e.g., “within 2 business days”)
 - Booking tool choice (embed vs link)
 - Whether to add optional mini-pages for the additional support areas (v1.1)
+
