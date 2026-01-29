@@ -16,6 +16,7 @@ Key files to update
 - `lib/services.ts` (service-specific copy)
 - `lib/faqs.ts` (FAQ content)
 - `app/policies/*` (policy copy and retention window)
+- `AGENTS.md` (agent requirements and handoffs)
 
 Email configuration
 - The enquiry form posts to `app/api/enquiry/route.ts`.

@@ -25,17 +25,16 @@ export default function AboutPage() {
             <SectionHeading
               eyebrow="Bio"
               title="A brief introduction."
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              description="I offer calm, practical counselling that honours identity, relationships, and burnout."
             />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris.
+              My work is relational, trauma-informed, and grounded in clear, plain language. I aim
+              for a steady pace that respects your nervous system and lived experience.
             </p>
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
+              Clients often come to me feeling stuck in shame, overwhelmed by work stress, or
+              uncertain in relationships. We build safety first, then work toward choices that feel
+              more aligned and sustainable.
             </p>
           </div>
           <div className="order-1 lg:order-2">
@@ -61,7 +60,7 @@ export default function AboutPage() {
           <ul className="space-y-3 rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
             {[
               "LGBTQ+ affirming and neurodiversity-affirming",
-              "Te Tiriti-aligned values: manaakitanga, respect, and choice",
+              "Te Tiriti-aligned values: manaakitanga, relational safety, respect, and choice",
               "Plain language, no jargon, and no guarantees",
               "A steady pace that honours your nervous system"
             ].map((item) => (
@@ -124,15 +123,15 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Credentials"
             title="Qualifications and ongoing learning."
-            description="Add your professional details here so visitors know exactly where you sit."
+            description="These details will be published before launch."
           />
           <div className="space-y-4 text-sm text-forest/75">
             <ul className="space-y-2 rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
               {[
-                "[Add qualifications or training]",
-                "[Add professional membership or registration status]",
-                "[Add supervision arrangements]",
-                "[Add ongoing learning statement]"
+                "Qualifications and training (to be confirmed)",
+                "Professional membership or registration status (to be confirmed)",
+                "Supervision arrangements (to be confirmed)",
+                "Ongoing learning statement (to be confirmed)"
               ].map((item) => (
                 <li key={item}>{item}</li>
               ))}

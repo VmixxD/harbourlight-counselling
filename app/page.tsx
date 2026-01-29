@@ -34,7 +34,7 @@ export default function HomePage() {
               </Button>
             </div>
             <p className="text-sm text-forest/70">
-              {site.serviceArea} | LGBTQ+ affirming, trauma-informed, Te Tiriti-aligned values.
+              {site.serviceArea} | LGBTQ+ affirming, trauma-informed, Te Tiriti values: manaakitanga, relational safety, respect, and choice.
             </p>
           </div>
           <div className="relative">
@@ -59,17 +59,15 @@ export default function HomePage() {
             <SectionHeading
               eyebrow="Meet Vince"
               title="A steady, human approach to counselling."
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              description="I support adults across Aotearoa New Zealand with counselling that is calm, practical, and grounded."
             />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris.
+              My approach is warm, plain-language, and collaborative. We slow things down, make
+              sense of what is happening, and build steps that feel realistic and supportive.
             </p>
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
+              With a corporate background, I understand the realities of burnout and work stress. I
+              also bring a steady focus on identity, shame, and belonging.
             </p>
           </div>
           <div className="order-1 lg:order-2">

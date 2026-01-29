@@ -1,5 +1,7 @@
 # PRD — Harbourlight Counselling Website
 
+Note: When updating this PRD, also update AGENTS.md so agent briefs stay in sync.
+
 ## 1) Product overview
 **Product name:** Harbourlight Counselling (Vince Batters)  
 **Type:** Individual counsellor website (lead-gen + online counselling intake)  

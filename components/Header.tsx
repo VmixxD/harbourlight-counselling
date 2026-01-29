@@ -41,7 +41,7 @@ export function Header() {
         </div>
         <div className="flex items-center gap-2 lg:hidden">
           <Button href="/book" size="sm">
-            Book
+            {site.primaryCta}
           </Button>
           <button
             type="button"

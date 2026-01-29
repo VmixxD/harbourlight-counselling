@@ -95,6 +95,11 @@ export default function PrivacyPage() {
               work through it together. If you prefer external support, you can contact the Health
               and Disability Commissioner (HDC) or the NZ Association of Counsellors (NZAC).
             </p>
+            <ul className="space-y-2 rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
+              <li>The HDC Code of Rights outlines your rights as a health and disability consumer.</li>
+              <li>NZAC provides professional standards and a pathway for concerns about counsellors.</li>
+              <li>You can ask for support in making a complaint if that feels safer for you.</li>
+            </ul>
             <Callout title="Scope clarity" tone="soft">
               <p>
                 I work within a counselling scope and do not provide medical or diagnostic services.

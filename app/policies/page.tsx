@@ -51,16 +51,23 @@ export default function PoliciesPage() {
             description="These pages keep expectations clear and protect your wellbeing."
           />
           <div className="grid gap-6 md:grid-cols-2">
-            {policyCards.map((policy) => (
-              <Link
+            {policyCards.map((policy, index) => (
+              <div
                 key={policy.href}
-                href={policy.href}
-                className="rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft"
+                className="animate-fade-up"
+                style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <h3 className="font-heading text-2xl text-forest">{policy.title}</h3>
-                <p className="mt-2 text-sm text-forest/75">{policy.description}</p>
-                <span className="mt-4 inline-flex text-sm font-medium text-forest">Read more</span>
-              </Link>
+                <Link
+                  href={policy.href}
+                  className="group block h-full rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft transition-transform hover:-translate-y-1"
+                >
+                  <h3 className="font-heading text-2xl text-forest">{policy.title}</h3>
+                  <p className="mt-2 text-sm text-forest/75">{policy.description}</p>
+                  <span className="mt-4 inline-flex text-sm font-medium text-forest">
+                    Read more
+                  </span>
+                </Link>
+              </div>
             ))}
           </div>
           <Callout title="Crisis support" tone="soft">

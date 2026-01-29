@@ -130,7 +130,11 @@ export function EnquiryForm() {
             className="mt-1 h-4 w-4 rounded border-sage/60 text-forest focus-visible:ring-forest/50"
           />
           <span>
-            I have read the privacy notice and consent to being contacted about my enquiry.
+            I have read the{" "}
+            <a href="/policies/privacy" className="underline underline-offset-4">
+              privacy notice
+            </a>{" "}
+            and consent to being contacted about my enquiry.
           </span>
         </label>
         <p className="text-xs text-forest/60">

@@ -14,13 +14,14 @@ export const site = {
   secondaryCta: "Send an enquiry",
   bookingUrl: process.env.NEXT_PUBLIC_BOOKING_URL || "https://calendly.com/your-link",
   sessionLength: "50 minutes (option for 75 minutes)",
-  fees: "NZD [add fee] per 50-minute session",
+  fees: "Pricing to be confirmed before launch. Please enquire for current rates.",
   slidingScale:
     "Limited sliding scale spots are available. If cost is a barrier, reach out and we will explore options.",
   cancellationWindow: "24 hours",
   enquiryRetention: "6 months",
   crisisLine:
-    "If you or someone else is in immediate danger, call 111. For free 24/7 support in NZ, call or text 1737."
+    "If you or someone else is in immediate danger, call 111. For free 24/7 support in NZ, call or text 1737, or contact your local crisis team.",
+  professionalStatus: ""
 };
 
 export const schemaConfig = {

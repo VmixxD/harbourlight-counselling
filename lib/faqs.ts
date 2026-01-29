@@ -38,6 +38,11 @@ export const generalFaqs = [
     question: "Do you provide diagnosis or medical advice?",
     answer:
       "No. I work within a counselling scope and do not provide diagnosis or medical advice."
+  },
+  {
+    question: "How do I raise a concern or complaint?",
+    answer:
+      "You are welcome to raise concerns with me directly. If you prefer external support, you can contact the Health and Disability Commissioner (HDC) or the NZ Association of Counsellors (NZAC)."
   }
 ];
 

@@ -29,7 +29,9 @@ export function Footer() {
             <p className="font-semibold text-forest">Contact</p>
             <p className="text-forest/70">Email: {site.email}</p>
             <p className="text-forest/70">Location: {site.location}</p>
-            <p className="text-xs text-forest/60">[Add professional status]</p>
+            <p className="text-xs text-forest/60">
+              {site.professionalStatus || "Professional status to be confirmed."}
+            </p>
           </div>
           <div className="space-y-2">
             <p className="font-semibold text-forest">Policies</p>
