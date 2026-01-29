@@ -1,6 +1,4 @@
-# PRD — Harbourlight Counselling Website
-
-Note: When updating this PRD, also update AGENTS.md so agent briefs stay in sync.
+# PRD — Harbourlight Counselling Website (UPDATED)
 
 ## 1) Product overview
 **Product name:** Harbourlight Counselling (Vince Batters)  
@@ -18,13 +16,23 @@ Note: When updating this PRD, also update AGENTS.md so agent briefs stay in sync
 - Adults wanting support with **relationships** (communication, attachment patterns, conflict, intimacy).
 - Professionals experiencing **burnout** (corporate stress, restructuring impacts, perfectionism, people-pleasing, overwhelm).
 
+**Additional but still visible support themes (common overlap with the primary three):**
+- **Anxiety, stress & overwhelm** (often alongside burnout and shame).
+- **Grief & loss** (bereavement, break-ups, estrangement, “life didn’t go to plan”).
+- **Trauma & recovery** (stabilisation, safety, shame sensitivity, rebuilding trust in self/others).
+
 **Secondary audience:**
 - LGBTQ+ folks seeking affirming counselling (without excluding non-LGBTQ+ clients).
 - Neurodivergent clients (affirming tone, clear structure, predictable process).
 
 ## 3) Brand and positioning
 **Brand promise (conceptual):** A steady, warm, grounded space to reconnect with self and others.  
-**Tone:** Human, plain-language, calm, confident, non-clinical.  
+**Tone:** Human, plain-language, calm, confident, non-clinical.
+
+**Therapeutic approach (must be reflected in all copy + structure):**
+- **Person-centred as the foundation:** relational safety, empathy, authenticity, client-led pacing.
+- **Pluralistic when helpful:** collaborative “what works for you?” stance; integrating gentle tools/structure when clients want that (e.g., values work, communication skills, grounding, parts/inner-critic work), without becoming rigid or overly clinical.
+- **Collaborative review:** regularly checking in on progress and fit, and adjusting together.
 
 **Positioning cues to weave through site:**
 - LGBTQ+ affirming, trauma-informed, neurodiversity-affirming, anti-oppressive.
@@ -49,7 +57,7 @@ Note: When updating this PRD, also update AGENTS.md so agent briefs stay in sync
 1. **Home**
 2. **About Vince**
 3. **Work With Me / Services** (hub page)
-4. **Service detail pages (3)**
+4. **Primary Service detail pages (3) — focal points**
    - Identity & Shame
    - Relationships
    - Burnout & Work Stress
@@ -63,6 +71,14 @@ Note: When updating this PRD, also update AGENTS.md so agent briefs stay in sync
    - Informed consent overview (not a form download unless you want)
 9. **Contact**
 
+### Required content placement (visibility requirement)
+- Home + Services hub must include **two groups** of service tiles/cards:
+  - **Primary focus areas (3)** — larger, first, most prominent (links to detail pages).
+  - **Additional support areas (3)** — still visible (smaller cards or “Also support with…” section).  
+    These can link to either:
+    - anchors/sections on the Services hub (v1), or
+    - optional future mini-pages (v1.1).
+
 ### Optional (nice-to-have)
 - Resources (articles, reflections, links)
 - Accessibility statement
@@ -71,10 +87,10 @@ Note: When updating this PRD, also update AGENTS.md so agent briefs stay in sync
 ## 6) Core user journeys
 
 ### Journey A: “I’m anxious/shamey and unsure counselling is for me”
-- Lands on Home → reads “this is for you if…” → sees low-pressure CTA → views FAQ → books consult/enquiry.
+- Lands on Home → reads “this is for you if…” → sees low-pressure CTA → views FAQ (“What happens in the first session?”, “How many sessions?”) → books consult/enquiry.
 
 ### Journey B: “Burnt out professional, needs practical clarity”
-- Lands on Burnout page → sees structured “How it works” → fees/policies transparent → books.
+- Lands on Burnout page → sees structured “How it works” + person-centred/pluralistic approach → fees/policies transparent → books.
 
 ### Journey C: “Relationship stress, wants to know your approach”
 - Lands on Relationships page → reads approach + outcomes (non-guaranteed) → sees fit/not-fit → enquiry.
@@ -90,9 +106,14 @@ Provide **two implementation options**:
 - **Option 1 (fast):** External booking tool embed/link (Calendly-style).
 - **Option 2 (practice-grade):** Practice management system booking (if you use one).
 
-**Requirement:** booking flow must capture:
+**Session length requirement (non-negotiable):**
+- All paid counselling sessions are **50 minutes** only (no 75-minute option in v1).
+
+**Booking flow must capture:**
 - name, email, phone (optional), preferred contact method
 - brief “what brings you here?” (optional but helpful)
+- optional “Which areas feel most relevant?” multi-select:  
+  - Identity/Shame, Relationships, Burnout/Work Stress, Anxiety/Stress, Grief/Loss, Trauma/Recovery, Not sure yet
 - confirmation of privacy notice + consent checkbox
 - timezone handling (NZ default)
 
@@ -113,27 +134,49 @@ Provide **two implementation options**:
 
 ### Global copy blocks (must exist)
 - **One-line positioning statement:** who you help + what shifts.
+- **Primary focus areas (3) tiles:** Identity/Shame, Relationships, Burnout/Work Stress.
+- **Additional support areas (3) tiles/section:** Anxiety/Stress, Grief/Loss, Trauma/Recovery.
 - **“This might be for you if…”** bullets (3–6 bullets).
 - **“Not the right fit if…”** bullets (2–4 bullets) with warmth (e.g., needing crisis care / wanting diagnosis reports).
-- **“How it works”** (3 steps).
+- **“How it works” (3 steps)** that reflects person-centred + pluralistic practice:
+  1) Start where you are (relational safety + what matters to you)  
+  2) Make sense of patterns together (your pace; your goals)  
+  3) Choose what helps (talking + optional tools/structure if you want it)
+- **“My approach” block (required):**
+  - Person-centred foundation (empathy, authenticity, client-led pacing)
+  - Pluralistic collaboration (“we decide together what’s helpful”)
+  - Ongoing review (“we check in and adjust together”)
+- **Session length:** “Sessions are 50 minutes.”
+- **How many sessions? (required copy block):**
+  - Offer a realistic, non-promissory frame e.g. “Some people come for a few sessions, others longer-term. We’ll check in regularly and reassess together.”
+  - Include an example review point (e.g., “we review after 4–6 sessions”) but keep it flexible and collaborative.
 - **Fees transparency** (and what to do if cost is a barrier).
 - **Confidentiality + limits** (plain language).
 - **Online counselling safety basics** (privacy, location, crisis planning).
 - **NZ professional context**: a short statement clarifying scope and complaint pathways.
 
-### Service page template (repeatable)
-Each of the 3 service pages must include:
+### Service page template (repeatable) — for the 3 focal pages
+Each of the 3 primary service pages must include:
 - Hero: short empathetic hook + outcome direction (no guarantees)
 - “Common signs this shows up as…”
 - “What we’ll focus on…”
-- “How I work” (relational + structured options)
-- “What you can expect” (first sessions)
+- **How I work (required):** person-centred foundation + pluralistic options (clearly framed as optional)
+- **What you can expect (required):**
+  - first session overview
+  - sessions are 50 minutes
+  - collaboration + review
 - Fit / not-fit
 - CTA block
-- Short FAQ relevant to that theme
+- Short FAQ relevant to that theme (include “How many sessions?” on at least one key page, ideally FAQ page globally)
+
+### Additional support areas content (required on Home + Services hub)
+For Anxiety/Stress, Grief/Loss, Trauma/Recovery include a short visible section:
+- 2–3 sentences each: what it can look like + reassurance + invite to enquire  
+- Optional: link to relevant focal page(s) or a “Not sure where to start?” section.
 
 ### About page must include
 - Your values and approach (warm + grounded)
+- **Person-centred + pluralistic explanation** (in plain language; avoid jargon)
 - Corporate background relevance (burnout/work stress)
 - A gentle personal note about your why (identity/shame) without oversharing
 - Qualifications/status (fillable fields)
@@ -143,11 +186,18 @@ Each of the 3 service pages must include:
 ## 9) NZ ethics, legal, and safety requirements
 *(Build as clear website copy, not legalese. Keep it calm.)*
 
-### Must include
-- **NZAC Code of Ethics** All counselling meets my obligations in the NZAC Code
-- **Privacy compliance:** align to **Privacy Act 2020** + **Health Information Privacy Code 2020** principles (collect minimal info, purpose, storage, access/correction, retention/disposal).
+### Must include (with correct links)
+- **NZAC Code of Ethics**: All counselling meets my obligations in the NZAC Code of Ethics:  
+  - https://nzac.org.nz/site/about-us/code-of-ethics
+- **HDC Code of Rights (Consumers’ Rights)**: Clients’ rights and provider obligations (complaints pathway reference):  
+  - https://www.hdc.org.nz/your-rights/about-the-code/code-of-health-and-disability-services-consumers-rights/
+- **Privacy compliance:** align to **Privacy Act 2020** + **Health Information Privacy Code 2020** principles.  
+  - Privacy Act 2020 (NZ Legislation): https://www.legislation.govt.nz/act/public/2020/0031/latest/whole.html  
+  - Health Information Privacy Code 2020 (Privacy Commissioner): https://www.privacy.org.nz/privacy-principles/codes-of-practice/hipc2020/
+
+### Must include (content)
 - **Confidentiality + limits:** harm to self/others, abuse, court order—explained simply.
-- **Complaints pathway:** include a page section that references **HDC Code of Rights** and how clients can raise concerns (start with you, then external pathways).
+- **Complaints pathway:** include a section that references the HDC Code of Rights and how clients can raise concerns (start with you, then external pathways).
 - **Scope clarity:** counsellor scope (not psychology/psychiatry), no diagnosis unless qualified and explicitly within scope.
 - **Crisis disclaimer:** not suitable for urgent crisis; provide NZ crisis contacts (include 111 + 1737 and local supports).
 - **Advertising integrity:** avoid guarantees, avoid “cure”, avoid inflated claims.
@@ -162,7 +212,8 @@ Each of the 3 service pages must include:
 ## 10) UI components (build a reusable library)
 - **Header:** logo wordmark + nav + primary CTA button
 - **Hero:** warm headline, short subheadline, 1–2 CTAs, supportive microcopy
-- **Service cards:** 3 cards with icons/illustrations (simple line icons), short blurbs
+- **Primary focus service cards (3):** larger, first, prominent, link to detail pages
+- **Additional support cards/section (3):** still visible, calmer styling, link to hub anchors or future mini-pages
 - **“This might be for you if…” section:** bullet list + subtle highlight panel
 - **Process steps:** 3-step horizontal on desktop / vertical on mobile
 - **Trust + safety strip:** confidentiality, online NZ-wide, inclusive practice, supervision (non-specific)
@@ -203,6 +254,9 @@ Each of the 3 service pages must include:
 - Basic SEO metadata complete
 - Clear scope + crisis + complaints info included
 - Content matches tone: human, warm, non-jargony, non-promissory
+- Primary (3) and additional (3) themes are both visible on Home + Services hub
+- Sessions displayed consistently as **50 minutes** only
+- Copy includes a collaborative explanation of **how many sessions** (flexible, reviewed together)
 
 ## 14) Agent handoff tasks
 
@@ -210,27 +264,33 @@ Each of the 3 service pages must include:
 - Create style guide (palette, typography, spacing, components)
 - Produce page wireframes + a high-fidelity Home + Service template
 - Ensure calm, nature-forward look
+- Implement two-tier services display (Primary 3 + Additional 3)
 
 ### Agent B — Copywriter (NZ counselling tone)
 - Draft all page copy using the templates above
 - Ensure scope clarity + inclusive language + no guarantees
 - Write FAQs and policies in plain language
+- Ensure approach is consistently person-centred + pluralistic
+- Ensure “sessions are 50 minutes” and “how many sessions” copy is included
 
 ### Agent C — Web Developer
 - Implement Next.js site + components library
 - Hook up booking + enquiry forms + email confirmation
+- Ensure booking only offers 50-minute sessions
 - Performance + accessibility compliance
 
 ### Agent D — Compliance pass
 - Review privacy/confidentiality/complaints/scope content against NZ expectations (HDC Code of Rights, Privacy Act, HIPC)
 - Ensure crisis copy and limits of confidentiality are present and clear
+- Confirm correct placement of NZAC/HDC/Privacy links
 
 ## 15) Quick “fill-in fields” list (so agents don’t guess)
 - Credentials/qualifications (as you want displayed)
 - Professional membership/status wording (NZAC pathway etc.)
-- Session length options (e.g., 50 mins / 75 mins)
+- **Session length: 50 minutes only**
 - Fees (standard + any sliding scale approach)
 - Cancellation window (e.g., 24 or 48 hours)
 - Service area wording (Online across NZ; in-person Auckland optional)
 - Preferred contact method + response time (e.g., “within 2 business days”)
 - Booking tool choice (embed vs link)
+- Whether to add optional mini-pages for the additional support areas (v1.1)
