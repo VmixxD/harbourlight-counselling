@@ -5,6 +5,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { ServiceCard } from "@/components/ServiceCard";
 import { Callout } from "@/components/Callout";
 import { services } from "@/lib/services";
+import { supportAreas } from "@/lib/supportAreas";
 import { site } from "@/lib/site";
 
 export const metadata = {
@@ -44,6 +45,24 @@ export default function ServicesPage() {
       </section>
 
       <section className="section-space bg-mist">
+        <Container className="space-y-10">
+          <SectionHeading
+            eyebrow="Also support with"
+            title="Additional areas of support."
+            description="You do not need to know the perfect category before getting in touch."
+          />
+          <div className="grid gap-6 md:grid-cols-2">
+            {supportAreas.map((area) => (
+              <div key={area.title} className="card-surface">
+                <h3 className="font-heading text-2xl text-forest">{area.title}</h3>
+                <p className="mt-3 text-sm text-forest/75">{area.description}</p>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      <section className="section-space">
         <Container className="grid gap-10 lg:grid-cols-[1fr_0.9fr]">
           <SectionHeading
             eyebrow="How I work"

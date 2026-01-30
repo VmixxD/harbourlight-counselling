@@ -12,6 +12,7 @@ import { Callout } from "@/components/Callout";
 import { SchemaOrg } from "@/components/Schema";
 import { homeFaqs } from "@/lib/faqs";
 import { services } from "@/lib/services";
+import { supportAreas } from "@/lib/supportAreas";
 import { site } from "@/lib/site";
 
 export default function HomePage() {
@@ -136,6 +137,24 @@ export default function HomePage() {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <ServiceCard service={service} />
+              </div>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      <section className="section-space">
+        <Container className="space-y-10">
+          <SectionHeading
+            eyebrow="Additional support"
+            title="Other areas I can help with."
+            description="If you are not sure what fits best, you can still reach out and we will decide together."
+          />
+          <div className="grid gap-6 md:grid-cols-2">
+            {supportAreas.map((area) => (
+              <div key={area.title} className="card-surface">
+                <h3 className="font-heading text-2xl text-forest">{area.title}</h3>
+                <p className="mt-3 text-sm text-forest/75">{area.description}</p>
               </div>
             ))}
           </div>

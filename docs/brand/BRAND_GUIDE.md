@@ -109,7 +109,7 @@ Example:
 "Soft coastal harbour at dawn, mist rolling over calm water, soft natural light, muted sage and warm cream palette, minimal composition, gentle grain, calm atmosphere, no people, no text, wide landscape"
 
 ## Accessibility and inclusion
-- Prioritize contrast, readable type sizes, and clear focus states.
+- Prioritise contrast, readable type sizes, and clear focus states.
 - Use inclusive language (no assumptions about gender, identity, or relationship structure).
 - Ensure imagery does not exclude or stereotype.
 
