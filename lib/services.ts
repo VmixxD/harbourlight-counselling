@@ -41,7 +41,7 @@ export const services: Service[] = [
       "Relational and trauma-informed, with pacing that respects your nervous system",
       "Clear structure when helpful, with space for reflection and meaning-making",
       "Affirming of LGBTQ+ and neurodivergent identities",
-      "Practical tools alongside deeper emotional work"
+      "Practical options when they would serve you, alongside deeper emotional work"
     ],
     expect: [
       "We start by understanding what brings you here and what matters most",
@@ -78,7 +78,7 @@ export const services: Service[] = [
     hero:
       "Find steadier ground in how you connect, communicate, and repair with the people who matter.",
     outcome:
-      "We focus on patterns that show up in your relationships and the practical skills that help you respond differently.",
+      "We focus on patterns that show up in your relationships and skills that can help you respond differently when it feels useful.",
     signs: [
       "Recurring conflict or shutdown in close relationships",
       "Feeling anxious, avoidant, or stuck in people-pleasing",
@@ -95,7 +95,7 @@ export const services: Service[] = [
     ],
     howIWork: [
       "We slow down patterns to see what is really happening",
-      "I offer practical tools alongside emotional insight",
+      "I can offer practical options when they would serve you, alongside emotional insight",
       "We keep the work realistic and aligned with your values"
     ],
     expect: [
@@ -133,7 +133,7 @@ export const services: Service[] = [
     hero:
       "Move from depletion and overwhelm toward steadier energy, clearer boundaries, and sustainable work life.",
     outcome:
-      "We map the pressures you are carrying and build a practical plan to protect your wellbeing without losing your edge.",
+      "We map the pressures you are carrying and build a plan to protect your wellbeing without losing your edge.",
     signs: [
       "Persistent exhaustion, even after rest",
       "Irritability, cynicism, or feeling numb at work",
@@ -150,12 +150,12 @@ export const services: Service[] = [
     ],
     howIWork: [
       "I draw on corporate experience to understand work realities",
-      "We blend practical strategies with deeper emotional insight",
-      "Sessions balance clear action steps with compassionate pacing"
+      "We can draw on practical strategies when they would be useful",
+      "Sessions balance compassionate pacing with clear next steps when helpful"
     ],
     expect: [
       "We identify the core stressors and patterns first",
-      "You will leave with a small, achievable plan each session",
+      "When it is helpful, we agree on a small, achievable next step",
       "We review progress and adjust without judgment"
     ],
     fit: [

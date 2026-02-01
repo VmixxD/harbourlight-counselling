@@ -127,7 +127,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Services"
             title="Support that meets you where you are."
-            description="Explore the three focus areas below, each designed to be warm, structured, and practical."
+            description="Explore the three focus areas below, each designed to be warm, structured, and grounded."
           />
           <div className="grid gap-6 md:grid-cols-3">
             {services.map((service, index) => (
@@ -166,7 +166,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="How it works"
             title="A clear, supportive process."
-            description="We move at your pace, with steady guidance and practical tools."
+            description="We move at your pace, with steady guidance and practical options when they would serve you."
           />
           <ProcessSteps />
         </Container>

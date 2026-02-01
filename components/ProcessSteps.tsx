@@ -11,7 +11,7 @@ const steps = [
   },
   {
     title: "Work with clarity",
-    description: "Sessions balance reflection with practical tools you can use."
+    description: "Sessions balance reflection with practical options when they would help."
   }
 ];
 

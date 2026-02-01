@@ -26,7 +26,7 @@ export default function ServicesPage() {
           <SectionHeading
             eyebrow="Service areas"
             title="Focused support for common themes."
-            description="Each service blends warmth, structure, and practical guidance."
+            description="Each service blends warmth, structure, and clear guidance."
           />
           <div className="overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
             <img
@@ -73,7 +73,7 @@ export default function ServicesPage() {
             <ul className="space-y-3 rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
               <li>We begin by understanding your goals and what matters most.</li>
               <li>We build safety first, then explore patterns with care.</li>
-              <li>We keep sessions grounded with practical tools and reflection.</li>
+              <li>We keep sessions grounded with reflection and practical options when helpful.</li>
               <li>We review progress regularly and adjust together.</li>
             </ul>
             <Callout title="Not sure where to start?" tone="soft">

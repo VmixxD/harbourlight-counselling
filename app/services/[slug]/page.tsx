@@ -83,7 +83,7 @@ export default function ServicePage({ params }: ServicePageProps) {
           <SectionHeading
             eyebrow="Focus areas"
             title="What we will focus on"
-            description="A blend of practical tools, reflection, and steady support."
+            description="A blend of reflection, steady support, and practical options when they would help."
           />
           <ul className="space-y-3 rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
             {service.focus.map((item) => (
