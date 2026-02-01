@@ -15,7 +15,7 @@ export default function AboutPage() {
     <>
       <PageHeader
         title="About Vince"
-        intro="I offer a calm, grounded space for adults who want to feel more at ease with themselves and their relationships."
+        intro="I offer a calm, grounded space for teens and adults who want to feel more at ease with themselves and their relationships."
         primaryCta={{ label: site.primaryCta, href: "/book" }}
         secondaryCta={{ label: "Explore services", href: "/services" }}
       />

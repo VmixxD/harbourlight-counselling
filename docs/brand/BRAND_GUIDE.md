@@ -10,7 +10,7 @@ Scope note: Product scope, IA, compliance, and functional requirements live in `
 ## Brand summary
 - Purpose: A steady, warm, grounded space to reconnect with self and others.
 - Positioning: Person-centred, pluralistic, trauma-informed, inclusive counselling with a nature-forward calm.
-- Audience: Adults 18+ across NZ, with primary focus areas: identity/shame, relationships, burnout/work stress.
+- Audience: Teens and adults across NZ, with primary focus areas: identity/shame, relationships, burnout/work stress.
 - Promise style: No guarantees. No clinical claims. Warm, clear, collaborative language.
 
 ## Brand voice and tone

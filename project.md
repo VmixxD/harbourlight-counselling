@@ -16,8 +16,8 @@ Note: This PRD defines product scope, IA, compliance, and functional requirement
 
 ## 2) Target audience
 **Primary audience (NZ-wide):**
-- Adults (18+) navigating **identity/shame**, internalised stigma, self-criticism, belonging.
-- Adults wanting support with **relationships** (communication, attachment patterns, conflict, intimacy).
+- Teens and adults navigating **identity/shame**, internalised stigma, self-criticism, belonging.
+- Teens and adults wanting support with **relationships** (communication, attachment patterns, conflict, intimacy).
 - Professionals experiencing **burnout** (corporate stress, restructuring impacts, perfectionism, people-pleasing, overwhelm).
 
 **Additional but still visible support themes (common overlap with the primary three):**

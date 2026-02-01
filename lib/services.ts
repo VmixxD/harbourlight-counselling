@@ -18,9 +18,9 @@ export const services: Service[] = [
     slug: "identity-shame",
     title: "Identity and Shame",
     shortDescription:
-      "Gentle, affirming counselling for people feeling stuck in shame, self-criticism, or not good enough.",
+      "Gentle, affirming counselling for teens and adults feeling stuck in shame, self-criticism, or not good enough.",
     hero:
-      "Loosen the grip of shame and make room for a steadier, kinder relationship with yourself.",
+      "For teens and adults, loosen the grip of shame and make room for a steadier, kinder relationship with yourself.",
     outcome:
       "Together we explore what is underneath the shame and build practical ways to reconnect with your values and sense of belonging.",
     signs: [
@@ -66,7 +66,7 @@ export const services: Service[] = [
       {
         question: "Is this only for LGBTQ+ clients?",
         answer:
-          "No. I offer LGBTQ+ affirming counselling, and I work with adults from many backgrounds."
+          "No. I offer LGBTQ+ affirming counselling, and I work with teens and adults from many backgrounds."
       }
     ]
   },
@@ -74,9 +74,9 @@ export const services: Service[] = [
     slug: "relationships",
     title: "Relationships",
     shortDescription:
-      "Support for communication, attachment patterns, conflict, and rebuilding trust with yourself and others.",
+      "Support for teens and adults with communication, attachment patterns, conflict, and rebuilding trust with yourself and others.",
     hero:
-      "Find steadier ground in how you connect, communicate, and repair with the people who matter.",
+      "For teens and adults, find steadier ground in how you connect, communicate, and repair with the people who matter.",
     outcome:
       "We focus on patterns that show up in your relationships and skills that can help you respond differently when it feels useful.",
     signs: [
@@ -129,9 +129,9 @@ export const services: Service[] = [
     slug: "burnout",
     title: "Burnout and Work Stress",
     shortDescription:
-      "Counselling for professionals navigating burnout, overwhelm, perfectionism, and work stress.",
+      "Counselling for teens and adults navigating burnout, overwhelm, perfectionism, and work stress.",
     hero:
-      "Move from depletion and overwhelm toward steadier energy, clearer boundaries, and sustainable work life.",
+      "For teens and adults, move from depletion and overwhelm toward steadier energy, clearer boundaries, and sustainable work life.",
     outcome:
       "We map the pressures you are carrying and build a plan to protect your wellbeing without losing your edge.",
     signs: [

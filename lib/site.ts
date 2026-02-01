@@ -4,7 +4,7 @@ export const site = {
   tagline:
     "Counselling for identity, relationships, and burnout. A grounded space to reconnect with yourself and others.",
   description:
-    "Harbourlight Counselling offers warm, practical counselling for adults across Aotearoa New Zealand, with a focus on identity, relationships, and burnout.",
+    "Harbourlight Counselling offers warm, practical counselling for teens and adults across Aotearoa New Zealand, with a focus on identity, relationships, and burnout.",
   location: "Auckland, New Zealand",
   serviceArea: "Online across New Zealand. In-person Auckland by arrangement.",
   email: "hello@harbourlightcounselling.co.nz",

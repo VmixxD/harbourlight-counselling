@@ -17,7 +17,7 @@ export default function ServicesPage() {
     <>
       <PageHeader
         title="Work with me"
-        intro="Choose a service area below or reach out if you are not sure where to start."
+        intro="Choose a service area below or reach out if you are not sure where to start. I work with teens and adults."
         primaryCta={{ label: site.primaryCta, href: "/book" }}
         secondaryCta={{ label: site.secondaryCta, href: "/contact" }}
       />
