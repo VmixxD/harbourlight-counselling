@@ -12,7 +12,7 @@ Note: This PRD defines product scope, IA, compliance, and functional requirement
 - Establish trust (warmth, credibility, clarity, safety).  
 - Explain fit (who it’s for / not for).  
 - Provide transparent policies (fees, privacy, cancellation, online safety).  
-- Support NZ-wide online counselling (and optional in-person Auckland later).
+- Support NZ-wide online counselling.
 
 ## 2) Target audience
 **Primary audience (NZ-wide):**
@@ -220,7 +220,7 @@ For Anxiety/Stress, Grief/Loss, Trauma/Recovery include a short visible section:
 ### SEO
 - Page titles + meta descriptions written per page
 - OpenGraph/Twitter cards
-- Local SEO basics: Auckland mention + NZ-wide online
+- Local SEO basics: NZ-wide online
 - Schema.org: LocalBusiness/ProfessionalService where appropriate
 
 ## 12) Non-goals (out of scope for v1)
@@ -274,7 +274,7 @@ For Anxiety/Stress, Grief/Loss, Trauma/Recovery include a short visible section:
 - **Session length: 50 minutes only**
 - Fees (standard + any sliding scale approach)
 - Cancellation window (e.g., 24 or 48 hours)
-- Service area wording (Online across NZ; in-person Auckland optional)
+- Service area wording (Online across NZ)
 - Preferred contact method + response time (e.g., “within 2 business days”)
 - Booking tool choice (embed vs link)
 - Whether to add optional mini-pages for the additional support areas (v1.1)

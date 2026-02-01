@@ -126,6 +126,6 @@ Ensure all core content blocks are present per `AGENTS.md`:
 - Professional membership/status wording
 - Fees and sliding scale policy
 - Cancellation window
-- Service area wording (NZ-wide online; in-person Auckland optional)
+- Service area wording (NZ-wide online)
 - Response time and preferred contact method
 - Primary CTA selection

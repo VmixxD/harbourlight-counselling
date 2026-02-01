@@ -88,7 +88,7 @@ Each service page must include:
 - Session length options
 - Fees (standard + any sliding scale)
 - Cancellation window
-- Service area wording (online NZ-wide; in-person Auckland optional)
+- Service area wording (online NZ-wide)
 - Preferred contact method + response time
 - Booking tool choice (embed vs link)
 

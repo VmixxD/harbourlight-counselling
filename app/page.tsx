@@ -64,7 +64,7 @@ export default function HomePage() {
             <SectionHeading
               eyebrow="Meet Vince"
               title="A steady, human approach to counselling."
-              description="I support teens and adults across Aotearoa New Zealand with counselling that is calm, practical, and grounded."
+              description="I support teens and adults online across Aotearoa with counselling that is calm, practical, and grounded."
             />
             <p>
               My approach is warm, plain-language, and collaborative. We slow things down, make
