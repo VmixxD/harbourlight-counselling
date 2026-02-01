@@ -2,7 +2,7 @@ import React from "react";
 
 type FaqItem = {
   question: string;
-  answer: string;
+  answer: React.ReactNode;
 };
 
 type FaqAccordionProps = {
@@ -21,7 +21,7 @@ export function FaqAccordion({ items }: FaqAccordionProps) {
             <span>{item.question}</span>
             <span className="text-xl text-forest/60 transition-transform group-open:rotate-45">+</span>
           </summary>
-          <p className="mt-3 text-sm text-forest/75">{item.answer}</p>
+          <div className="mt-3 text-sm text-forest/75">{item.answer}</div>
         </details>
       ))}
     </div>

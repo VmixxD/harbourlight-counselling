@@ -1,3 +1,5 @@
+import React from "react";
+
 export const generalFaqs = [
   {
     question: "What is counselling like with you?",
@@ -41,8 +43,23 @@ export const generalFaqs = [
   },
   {
     question: "How do I raise a concern or complaint?",
-    answer:
-      "You are welcome to raise concerns with me directly. If you prefer external support, you can contact the Health and Disability Commissioner (HDC) or the NZ Association of Counsellors (NZAC)."
+    answer: React.createElement(
+      "span",
+      null,
+      "You are welcome to raise concerns with me directly. If you prefer external support, you can contact the ",
+      React.createElement(
+        "a",
+        { className: "underline underline-offset-4", href: "https://www.hdc.org.nz" },
+        "Health and Disability Commissioner (HDC)"
+      ),
+      " or the ",
+      React.createElement(
+        "a",
+        { className: "underline underline-offset-4", href: "https://www.nzac.org.nz" },
+        "NZ Association of Counsellors (NZAC)"
+      ),
+      "."
+    )
   }
 ];
 
