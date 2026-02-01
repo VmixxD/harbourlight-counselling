@@ -25,7 +25,8 @@ export default function HomePage() {
           <div className="space-y-6 motion-safe:animate-fade-up lg:max-w-xl">
             <p className="text-xs uppercase tracking-[0.22em] text-forest/60">Harbourlight Counselling</p>
             <h1 className="font-heading text-4xl text-forest md:text-5xl">
-              Counselling for identity, relationships, and burnout.
+              A steady space to
+              <span className="block italic text-moss">reconnect.</span>
             </h1>
             <p className="text-lg text-forest/80">{site.tagline}</p>
             <div className="flex flex-col gap-3 sm:flex-row">
