@@ -39,6 +39,7 @@ Do not:
 
 ## Visual principles
 - Calm, grounded, nature-forward.
+- Minimalist line art across site imagery, with natural New Zealand themes.
 - Warm neutrals with muted greens; low visual noise.
 - Generous whitespace, rounded corners, soft shadows.
 
@@ -54,8 +55,8 @@ Do not:
 
 ## Imagery and photography
 Primary image themes:
-- Nature textures (harbour water, bush, mist, soft light).
-- Calm, minimal compositions with shallow depth of field.
+- Natural New Zealand motifs (harbour water, bush, ferns, mist, soft light).
+- Minimalist line art with gentle paper texture and lots of negative space.
 - Warm neutral and sage palettes.
 
 Headshots:
@@ -65,10 +66,11 @@ Headshots:
 Do:
 - Favor soft light, muted color, and a quiet atmosphere.
 - Use negative space to allow text overlays.
+- Keep line art simple, breathable, and low contrast.
 
 Do not:
 - Use busy, high-contrast, or high-saturation scenes.
-- Use images with people unless it is an approved headshot.
+- Use photorealistic or 3D-rendered imagery.
 - Use stock imagery that feels clinical or corporate.
 
 ## Iconography
@@ -90,28 +92,14 @@ Do not:
 - Use sharp angles or geometric tech styling.
 
 ## Illustration and graphic shapes
-- Soft organic shapes, layered paper textures, subtle gradients.
+- Minimalist line art with soft organic shapes and subtle paper textures.
 - Avoid high-contrast or neon accents.
 - Keep detail minimal and breathable.
 
 ## Image prompt creator
-Use this template to generate brand-conforming AI imagery.
-
-Prompt template:
-"{subject}, {setting}, soft natural light, muted sage and warm cream palette, minimal composition, gentle grain, calm atmosphere, no people, no text, wide landscape"
-
-Add-on descriptors (pick 1-3):
-- "mist rolling over calm water"
-- "soft fog and filtered morning light"
-- "subtle paper texture"
-- "shallow depth of field"
-- "cinematic depth with soft haze"
-
-Negative prompt (append as needed):
-"people, faces, hands, text, signage, logos, high contrast, neon, harsh shadows, clinical office, city crowds"
-
-Example:
-"Soft coastal harbour at dawn, mist rolling over calm water, soft natural light, muted sage and warm cream palette, minimal composition, gentle grain, calm atmosphere, no people, no text, wide landscape"
+Use the consistent illustration prompt system in `docs/brand/IMAGE_PROMPTS.md`.
+That file contains the base prompt, negative prompt, and per-image add-ons for every
+image currently used on the site. It is the source of truth for AI-assisted imagery.
 
 ## Accessibility and inclusion
 - Prioritise contrast, readable type sizes, and clear focus states.

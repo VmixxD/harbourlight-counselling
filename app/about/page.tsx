@@ -76,7 +76,7 @@ export default function AboutPage() {
             <img
               src="/images/hlc-about-abstract-shapes.png"
               alt="Abstract layered shapes in sage and warm neutrals"
-              className="aspect-[3/4] w-full object-cover"
+              className="aspect-square w-full object-contain"
               loading="lazy"
             />
           </div>

@@ -123,6 +123,23 @@ Accordions:
 - Maintain consistent max-width (sm/md). Use generous spacing around images.
 - If a caption pill is used, place it below the image rather than overlapping it.
 
+## Line art imagery checklist
+Use this quick checklist when generating or reviewing AI imagery.
+
+Do:
+- Minimalist line art with natural New Zealand themes.
+- Fine, rounded linework; low-contrast forest/moss on warm cream.
+- Generous negative space and simple compositions.
+- Subtle paper texture or light wash behind the linework.
+- Simple line art people only when it supports the message.
+
+Don't:
+- Photorealistic, 3D, or glossy effects.
+- High contrast, neon, or harsh shadows.
+- Busy scenes, heavy shading, or dense textures.
+- Clinical or corporate imagery.
+- Detailed faces, hands, or recognisable people.
+
 ## CSS utilities
 Defined in `app/globals.css`:
 - `.section-space` for section vertical spacing.
