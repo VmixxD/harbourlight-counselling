@@ -29,7 +29,9 @@ export function TrustStrip() {
     <div className="grid gap-6 rounded-2xl border border-sage/50 bg-white/70 p-6 md:grid-cols-2 lg:grid-cols-4">
       {items.map((item) => (
         <div key={item.title} className="space-y-3">
-          <div className="inline-flex rounded-full bg-mist p-3">{item.icon}</div>
+          <div className="inline-flex rounded-full bg-mist p-3 ring-1 ring-sage/30">
+            {item.icon}
+          </div>
           <h3 className="font-heading text-xl text-forest">{item.title}</h3>
           <p className="text-sm text-forest/70">{item.description}</p>
         </div>

@@ -42,6 +42,11 @@ Do not:
 - Warm neutrals with muted greens; low visual noise.
 - Generous whitespace, rounded corners, soft shadows.
 
+## CTA hierarchy and labels
+- Use a single filled primary CTA per group; secondary CTAs should be outline/ghost.
+- Avoid two filled buttons side by side.
+- Eyebrow labels use moderate tracking (tracking-[0.18em]) with `text-forest/70` for readability.
+
 ## Logo and wordmark
 - Current state: wordmark only. No standalone logo mark is defined.
 - Do not create a new logo mark or lockup without approval.

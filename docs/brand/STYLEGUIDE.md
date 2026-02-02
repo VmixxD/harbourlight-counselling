@@ -22,7 +22,7 @@ Core colors:
 
 Role mapping (use these consistently):
 - Background: cream (primary), mist (secondary), white/80 for cards
-- Text: forest (headings), charcoal (body), forest/70 for muted
+- Text: forest (headings), charcoal (body), forest/80 for secondary paragraphs, forest/70 for labels
 - Border: sage/50
 - CTA: forest background with cream text
 - Focus ring: forest/50 with cream offset
@@ -46,7 +46,7 @@ Recommended scale (Tailwind defaults):
 - Small: text-sm, font-body, text-forest/75
 
 Letter-spacing:
-- Use uppercase micro-labels sparingly (tracking-[0.22em])
+- Use uppercase micro-labels sparingly (tracking-[0.18em], text-forest/70).
 
 Line-height:
 - Body: 1.6-1.8
@@ -95,13 +95,21 @@ Motion rules:
 ## UI components (conventions)
 Buttons:
 - Primary: forest background, cream text, rounded-full, medium weight.
-- Secondary: ghost or outline using forest text with sage border.
+- Secondary: outline using forest text with sage border (no filled secondary in CTA pairs).
+- Ghost: text-only button for tertiary actions.
+
+Header CTA:
+- Use primary styling with `size="sm"` and remove shadow to keep the hero CTA dominant.
 
 Links:
 - Use forest text with a subtle hover shift.
 
 Cards:
 - Use `card-surface` and `shadow-soft`.
+
+Icon badges:
+- Icon size: `h-6 w-6`, `text-forest`.
+- Badge container: `rounded-full bg-mist p-3 ring-1 ring-sage/30`.
 
 Forms:
 - Clear labels, `text-sm font-medium text-forest`.
@@ -113,6 +121,7 @@ Accordions:
 ## Imagery placement
 - Image frames use `rounded-2xl`, `border-sage/50`, `shadow-lift`.
 - Maintain consistent max-width (sm/md). Use generous spacing around images.
+- If a caption pill is used, place it below the image rather than overlapping it.
 
 ## CSS utilities
 Defined in `app/globals.css`:

@@ -35,12 +35,12 @@ export function Header() {
           ))}
         </nav>
         <div className="hidden lg:flex">
-          <Button href="/book" size="sm">
+          <Button href="/book" size="sm" className="shadow-none">
             {site.primaryCta}
           </Button>
         </div>
         <div className="flex items-center gap-2 lg:hidden">
-          <Button href="/book" size="sm">
+          <Button href="/book" size="sm" className="shadow-none">
             {site.primaryCta}
           </Button>
           <button
@@ -67,7 +67,7 @@ export function Header() {
                 {item.label}
               </Link>
             ))}
-            <Button href="/book" className="w-full justify-center">
+            <Button href="/book" className="w-full justify-center shadow-none">
               {site.primaryCta}
             </Button>
           </Container>

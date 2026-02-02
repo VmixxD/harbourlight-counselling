@@ -25,7 +25,9 @@ export function ServiceCard({ service, className }: ServiceCardProps) {
       )}
     >
       <div className="flex items-center gap-3">
-        <div className="rounded-full bg-mist p-3">{iconMap[service.slug]}</div>
+        <div className="rounded-full bg-mist p-3 ring-1 ring-sage/30">
+          {iconMap[service.slug]}
+        </div>
         <h3 className="font-heading text-2xl text-forest">{service.title}</h3>
       </div>
       <p className="mt-4 text-sm text-forest/75">{service.shortDescription}</p>

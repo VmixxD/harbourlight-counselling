@@ -23,19 +23,19 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-soft-radial opacity-80" />
         <Container className="relative grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="space-y-6 motion-safe:animate-fade-up lg:max-w-xl">
-            <p className="text-xs uppercase tracking-[0.22em] text-forest/60">Harbourlight Counselling</p>
+            <p className="text-xs uppercase tracking-[0.18em] text-forest/70">Harbourlight Counselling</p>
             <h1 className="font-heading text-4xl text-forest md:text-5xl">
               A steady space to
               <span className="block italic text-moss">reconnect.</span>
             </h1>
-            <p className="text-lg text-forest/80">{site.tagline}</p>
-            <div className="flex flex-col gap-3 sm:flex-row">
+            <p className="text-lg text-forest/90">{site.tagline}</p>
+            <div className="flex flex-col gap-3 pt-2 sm:flex-row">
               <Button href="/book">{site.primaryCta}</Button>
               <Button href="/contact" variant="secondary">
                 {site.secondaryCta}
               </Button>
             </div>
-            <div className="space-y-1 text-sm text-forest/70">
+            <div className="space-y-1 text-sm text-forest/80">
               <p>{site.serviceArea}</p>
               <p>
                 LGBTQ+ affirming, trauma-informed, Te Tiriti values: manaakitanga, relational safety,
@@ -52,7 +52,7 @@ export default function HomePage() {
                 loading="lazy"
               />
             </div>
-            <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 rounded-2xl border border-sage/50 bg-white/90 p-4 text-sm text-forest shadow-soft lg:w-max lg:whitespace-nowrap">
+            <div className="mx-auto mt-4 max-w-xs rounded-2xl border border-sage/50 bg-white/90 px-5 py-3 text-center text-sm text-forest shadow-soft lg:max-w-none lg:whitespace-nowrap">
               Calm, grounded support with clear next steps.
             </div>
           </div>

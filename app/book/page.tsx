@@ -30,7 +30,7 @@ export default function BookPage() {
           />
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
-              <p className="text-xs uppercase tracking-[0.22em] text-forest/60">Option 1</p>
+              <p className="text-xs uppercase tracking-[0.18em] text-forest/70">Option 1</p>
               <h3 className="mt-3 font-heading text-2xl text-forest">Booking link</h3>
               <p className="mt-2 text-sm text-forest/75">
                 Use the booking link to choose a time that works for you. NZ time is the default.
@@ -40,7 +40,7 @@ export default function BookPage() {
               </div>
             </div>
             <div className="rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
-              <p className="text-xs uppercase tracking-[0.22em] text-forest/60">Option 2</p>
+              <p className="text-xs uppercase tracking-[0.18em] text-forest/70">Option 2</p>
               <h3 className="mt-3 font-heading text-2xl text-forest">Practice system</h3>
               <p className="mt-2 text-sm text-forest/75">
                 If you use a practice management system, embed or link it here.

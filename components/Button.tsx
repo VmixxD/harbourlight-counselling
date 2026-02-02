@@ -17,8 +17,8 @@ const baseStyles =
 
 const variants = {
   primary: "bg-forest text-cream hover:bg-forest/90 shadow-soft",
-  secondary: "bg-sage text-forest hover:bg-mist border border-sage/70",
-  ghost: "text-forest hover:bg-mist border border-forest/20"
+  secondary: "border border-sage/70 bg-transparent text-forest hover:bg-mist",
+  ghost: "text-forest hover:bg-mist"
 };
 
 const sizes = {
