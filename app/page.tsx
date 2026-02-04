@@ -43,16 +43,17 @@ export default function HomePage() {
               </p>
             </div>
           </div>
-          <div className="relative">
-            <div className="mx-auto w-full max-w-sm overflow-hidden rounded-2xl border border-sage/50 shadow-lift">
+          <div className="mx-auto w-full max-w-sm">
+            <div className="relative overflow-hidden rounded-2xl border border-sage/50 shadow-lift">
               <img
                 src="/images/hlc-home-hero-harbour-dawn.png"
                 alt="Soft harbour at dawn with mist and warm light"
                 className="aspect-[3/4] w-full object-cover"
                 loading="lazy"
               />
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-cream/90 via-cream/45 to-transparent" />
             </div>
-            <div className="mx-auto mt-4 max-w-xs rounded-2xl border border-sage/50 bg-white/90 px-5 py-3 text-center text-sm text-forest shadow-soft lg:max-w-none lg:whitespace-nowrap">
+            <div className="relative mx-auto -mt-6 w-[88%] rounded-2xl border border-sage/60 bg-cream/95 px-5 py-3 text-center text-sm font-medium text-forest shadow-soft backdrop-blur-sm sm:-mt-7">
               Calm, grounded support with clear next steps.
             </div>
           </div>
