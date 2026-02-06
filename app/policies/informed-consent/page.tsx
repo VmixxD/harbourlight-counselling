@@ -32,7 +32,7 @@ export default function InformedConsentPage() {
             description="Informed consent means you understand the counselling process and your rights."
           />
           <Callout title="You can expect" tone="soft">
-            <ul className="mt-3 space-y-2">
+            <ul className="bullet-list mt-3">
               <li>A clear explanation of fees, session length, and boundaries.</li>
               <li>Transparency about confidentiality and its limits.</li>
               <li>Freedom to ask questions and review decisions at any time.</li>
@@ -49,7 +49,7 @@ export default function InformedConsentPage() {
             description="Counselling works best when we regularly check in about goals and pace."
           />
           <div className="space-y-4 text-sm text-forest/75">
-            <ul className="space-y-2 rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
+            <ul className="bullet-list bullet-list-card">
               <li>We agree on goals and review them together.</li>
               <li>You can pause, change direction, or end counselling at any time.</li>
               <li>We will talk about what is and is not helpful as we go.</li>
@@ -66,7 +66,7 @@ export default function InformedConsentPage() {
             description="Online counselling includes consent for technology and privacy considerations."
           />
           <Callout title="Online consent includes" tone="soft">
-            <ul className="mt-3 space-y-2">
+            <ul className="bullet-list mt-3">
               <li>Agreement to use secure video or phone sessions.</li>
               <li>Confirmation of your location for safety purposes.</li>
               <li>Understanding how we handle connection issues.</li>

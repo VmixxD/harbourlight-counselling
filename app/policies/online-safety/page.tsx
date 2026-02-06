@@ -32,7 +32,7 @@ export default function OnlineSafetyPage() {
             description="Online sessions work best when you can speak freely without being overheard."
           />
           <Callout title="Practical tips" tone="soft">
-            <ul className="mt-3 space-y-2">
+            <ul className="bullet-list mt-3">
               <li>Use headphones to reduce background noise.</li>
               <li>Check your internet connection before the session.</li>
               <li>Close other apps and notifications for privacy.</li>
@@ -49,7 +49,7 @@ export default function OnlineSafetyPage() {
             description="I will confirm your location at the start of each session for safety."
           />
           <div className="space-y-4 text-sm text-forest/75">
-            <ul className="space-y-2 rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
+            <ul className="bullet-list bullet-list-card">
               <li>Please share your physical location at the start of each session.</li>
               <li>If you move during the session, let me know.</li>
               <li>We will agree on a plan if the connection drops.</li>

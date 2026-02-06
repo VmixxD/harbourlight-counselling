@@ -42,4 +42,18 @@ summary::-webkit-details-marker {
   .card-surface {
     @apply rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft;
   }
+  .bullet-list {
+    @apply space-y-2 text-sm text-forest/75;
+  }
+  .bullet-list > li {
+    @apply relative pl-6 leading-relaxed;
+  }
+  .bullet-list > li::before {
+    content: "";
+    @apply absolute left-0 top-2 h-2 w-2 rounded-full bg-forest;
+    box-shadow: 0 0 0 3px rgba(138, 155, 130, 0.2);
+  }
+  .bullet-list-card {
+    @apply rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft;
+  }
 }

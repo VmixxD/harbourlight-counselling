@@ -75,7 +75,7 @@ export default function BookPage() {
               description="You remain in control of the pace and the decision to proceed."
             />
             <div className="space-y-4 text-sm text-forest/75">
-              <ul className="space-y-2 rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
+              <ul className="bullet-list bullet-list-card">
                 <li>You will receive an email confirming your enquiry.</li>
                 <li>We schedule a short consult or discuss next steps by email.</li>
                 <li>If we are not a fit, I can help you consider other options.</li>
