@@ -36,9 +36,9 @@ export default function FaqPage() {
             />
           </div>
           <FaqAccordion items={generalFaqs} />
-          <Button href="/book" variant="ghost">
-            {site.primaryCta}
-          </Button>
+          <div className="pt-2">
+            <Button href="/book">{site.primaryCta}</Button>
+          </div>
         </Container>
       </section>
     </>

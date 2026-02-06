@@ -1,4 +1,20 @@
 {
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/api/enquiry/route": "app/api/enquiry/route.js",
+  "/book/page": "app/book/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/faq/page": "app/faq/page.js",
+  "/fees/page": "app/fees/page.js",
   "/page": "app/page.js",
-  "/about/page": "app/about/page.js"
+  "/policies/cancellation/page": "app/policies/cancellation/page.js",
+  "/policies/informed-consent/page": "app/policies/informed-consent/page.js",
+  "/policies/online-safety/page": "app/policies/online-safety/page.js",
+  "/policies/page": "app/policies/page.js",
+  "/policies/privacy/page": "app/policies/privacy/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/services/[slug]/page": "app/services/[slug]/page.js",
+  "/services/page": "app/services/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js"
 }
