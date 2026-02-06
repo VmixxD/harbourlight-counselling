@@ -41,14 +41,14 @@ export default function PrivacyPage() {
           </p>
           <div className="grid gap-6 lg:grid-cols-2">
             <Callout title="Information collected" tone="soft">
-              <ul className="mt-3 space-y-2">
+              <ul className="bullet-list mt-3">
                 <li>Basic contact details (name, email, phone if provided).</li>
                 <li>Brief notes about your enquiry and session focus.</li>
                 <li>Billing and appointment records as required.</li>
               </ul>
             </Callout>
             <Callout title="How information is used" tone="soft">
-              <ul className="mt-3 space-y-2">
+              <ul className="bullet-list mt-3">
                 <li>To provide counselling services and follow up on enquiries.</li>
                 <li>To maintain ethical and professional records.</li>
                 <li>To meet legal obligations where required.</li>
@@ -66,7 +66,7 @@ export default function PrivacyPage() {
             description="Information is stored securely and only accessed when needed."
           />
           <div className="space-y-4 text-sm text-forest/75">
-            <ul className="space-y-2 rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
+            <ul className="bullet-list bullet-list-card">
               <li>Only necessary information is collected.</li>
               <li>Form submissions are encrypted in transit (HTTPS).</li>
               <li>Data is stored securely with restricted access.</li>
@@ -86,7 +86,7 @@ export default function PrivacyPage() {
             description="Confidentiality is central to counselling, with a few legal and ethical exceptions."
           />
           <Callout title="Limits to confidentiality" tone="soft">
-            <ul className="mt-3 space-y-2">
+            <ul className="bullet-list mt-3">
               <li>Risk of serious harm to you or someone else.</li>
               <li>Concerns about abuse or neglect of a child or vulnerable person.</li>
               <li>A legal requirement such as a court order.</li>
@@ -115,7 +115,7 @@ export default function PrivacyPage() {
               </a>
               .
             </p>
-            <ul className="space-y-2 rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
+            <ul className="bullet-list bullet-list-card">
               <li>
                 The{" "}
                 <a className="underline underline-offset-4" href="https://www.hdc.org.nz/your-rights/about-the-code/">

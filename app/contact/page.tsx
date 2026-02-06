@@ -29,10 +29,12 @@ export default function ContactPage() {
             />
             <div className="space-y-4 text-sm text-forest/75">
               <Callout title="Contact details" tone="soft">
-                <p>Email: {site.email}</p>
-                <p>Location: {site.location}</p>
-                <p>Service area: {site.serviceArea}</p>
-                <p>Response time: {site.responseTime}</p>
+                <ul className="bullet-list mt-3">
+                  <li>Email: {site.email}</li>
+                  <li>Location: {site.location}</li>
+                  <li>Service area: {site.serviceArea}</li>
+                  <li>Response time: {site.responseTime}</li>
+                </ul>
               </Callout>
               <Callout title="Crisis support" tone="soft">
                 <p>{site.crisisLine}</p>

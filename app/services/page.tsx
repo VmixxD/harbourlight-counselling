@@ -70,7 +70,7 @@ export default function ServicesPage() {
             description="You can expect a steady pace, clear language, and space to be human."
           />
           <div className="space-y-4 text-sm text-forest/75">
-            <ul className="space-y-3 rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
+            <ul className="bullet-list bullet-list-card">
               <li>We begin by understanding your goals and what matters most.</li>
               <li>We build safety first, then explore patterns with care.</li>
               <li>We keep sessions grounded with reflection and practical options when helpful.</li>

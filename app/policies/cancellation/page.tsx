@@ -45,7 +45,7 @@ export default function CancellationPage() {
             description="We will do our best to accommodate, but the full session fee may apply."
           />
           <div className="space-y-4 text-sm text-forest/75">
-            <ul className="space-y-2 rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
+            <ul className="bullet-list bullet-list-card">
               <li>If you are running late, the session may still end at the scheduled time.</li>
               <li>No-shows or late cancellations may be charged at the full rate.</li>
               <li>If you need to reschedule, please reach out as soon as you can.</li>

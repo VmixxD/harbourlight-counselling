@@ -67,12 +67,9 @@ export default function ServicePage({ params }: ServicePageProps) {
             title="This often shows up as..."
             description={service.outcome}
           />
-          <ul className="space-y-3 rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
+          <ul className="bullet-list bullet-list-card">
             {service.signs.map((item) => (
-              <li key={item} className="flex gap-3">
-                <span className="mt-1 h-2 w-2 rounded-full bg-forest" />
-                <span>{item}</span>
-              </li>
+              <li key={item}>{item}</li>
             ))}
           </ul>
         </Container>
@@ -85,7 +82,7 @@ export default function ServicePage({ params }: ServicePageProps) {
             title="What we will focus on"
             description="A blend of reflection, steady support, and practical options when they would help."
           />
-          <ul className="space-y-3 rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
+          <ul className="bullet-list bullet-list-card">
             {service.focus.map((item) => (
               <li key={item}>{item}</li>
             ))}
@@ -100,7 +97,7 @@ export default function ServicePage({ params }: ServicePageProps) {
             title="Relational, grounded, and clear."
             description="We choose a pace and structure that supports you."
           />
-          <ul className="space-y-3 rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
+          <ul className="bullet-list bullet-list-card">
             {service.howIWork.map((item) => (
               <li key={item}>{item}</li>
             ))}
@@ -115,7 +112,7 @@ export default function ServicePage({ params }: ServicePageProps) {
             title="What you can expect"
             description="We build safety and clarity before moving deeper."
           />
-          <ul className="space-y-3 rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
+          <ul className="bullet-list bullet-list-card">
             {service.expect.map((item) => (
               <li key={item}>{item}</li>
             ))}
@@ -126,14 +123,14 @@ export default function ServicePage({ params }: ServicePageProps) {
       <section className="section-space">
         <Container className="grid gap-6 lg:grid-cols-2">
           <Callout title="This is a good fit if" tone="soft">
-            <ul className="mt-3 space-y-2">
+            <ul className="bullet-list mt-3">
               {service.fit.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
           </Callout>
           <Callout title="Not the right fit if" tone="soft">
-            <ul className="mt-3 space-y-2">
+            <ul className="bullet-list mt-3">
               {service.notFit.map((item) => (
                 <li key={item}>{item}</li>
               ))}

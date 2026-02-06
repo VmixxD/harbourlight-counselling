@@ -58,17 +58,14 @@ export default function AboutPage() {
               title="Warm, practical, and affirming."
               description="I work in a relational, trauma-informed way that balances emotional depth with clear next steps."
             />
-            <ul className="space-y-3 rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
+            <ul className="bullet-list bullet-list-card">
               {[
                 "LGBTQ+ affirming and neurodiversity-affirming",
                 "Te Tiriti-aligned values: manaakitanga, relational safety, respect, and choice",
                 "Plain language, no jargon, and no guarantees",
                 "A steady pace that honours your nervous system"
               ].map((item) => (
-                <li key={item} className="flex gap-3">
-                  <span className="mt-1 h-2 w-2 rounded-full bg-forest" />
-                  <span>{item}</span>
-                </li>
+                <li key={item}>{item}</li>
               ))}
             </ul>
           </div>
@@ -136,7 +133,7 @@ export default function AboutPage() {
             description="These details will be published before launch."
           />
           <div className="space-y-4 text-sm text-forest/75">
-            <ul className="space-y-2 rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
+            <ul className="bullet-list bullet-list-card">
               {[
                 "Qualifications and training (to be confirmed)",
                 "Professional membership or registration status (to be confirmed)",
@@ -164,7 +161,7 @@ export default function AboutPage() {
             description="Clear boundaries protect you and keep the work safe."
           />
           <div className="space-y-4 text-sm text-forest/75">
-            <ul className="space-y-2 rounded-2xl border border-sage/50 bg-white/80 p-6 shadow-soft">
+            <ul className="bullet-list bullet-list-card">
               <li>Not an emergency service or crisis hotline.</li>
               <li>No diagnosis or medical advice.</li>
               <li>No court reports or formal workplace assessments.</li>

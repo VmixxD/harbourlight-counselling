@@ -106,6 +106,8 @@ Links:
 
 Cards:
 - Use `card-surface` and `shadow-soft`.
+- Use `bullet-list` for statement lists inside info boxes and callouts.
+- Use `bullet-list-card` when a list needs the standard card surface treatment.
 
 Icon badges:
 - Icon size: `h-6 w-6`, `text-forest`.
@@ -144,6 +146,8 @@ Don't:
 Defined in `app/globals.css`:
 - `.section-space` for section vertical spacing.
 - `.card-surface` for card background, border, padding, shadow.
+- `.bullet-list` for themed bullets (forest dot + soft moss ring) with consistent spacing.
+- `.bullet-list-card` for bordered, padded list cards.
 
 ## Do not do
 - Do not introduce new colors without adding them to `tailwind.config.js` and documenting them here.

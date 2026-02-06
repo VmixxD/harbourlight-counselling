@@ -98,7 +98,7 @@ export default function HomePage() {
               title="You are looking for support that feels steady, practical, and human."
               description="Counselling can help you make sense of what is happening, lower self-criticism, and feel more connected to who you are."
             />
-            <ul className="space-y-3 rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
+            <ul className="bullet-list bullet-list-card">
               {[
                 "You feel stuck in shame, self-criticism, or not good enough",
                 "Work stress or burnout is impacting your wellbeing and relationships",
@@ -106,10 +106,7 @@ export default function HomePage() {
                 "You are navigating identity, belonging, or big life transitions",
                 "You want counselling that is affirming, inclusive, and calm"
               ].map((item) => (
-                <li key={item} className="flex gap-3">
-                  <span className="mt-1 h-2 w-2 rounded-full bg-forest" />
-                  <span>{item}</span>
-                </li>
+                <li key={item}>{item}</li>
               ))}
             </ul>
           </div>
