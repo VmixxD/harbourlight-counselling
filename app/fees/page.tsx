@@ -31,8 +31,10 @@ export default function FeesPage() {
             <div className="space-y-4">
               <div className="rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
                 <p className="font-semibold text-forest">Standard session</p>
-                <p className="mt-2">{site.sessionLength}</p>
-                <p className="mt-2">{site.fees}</p>
+                <ul className="bullet-list mt-3">
+                  <li>{site.sessionLength}</li>
+                  <li>{site.fees}</li>
+                </ul>
               </div>
               <div className="rounded-2xl border border-sage/50 bg-white/80 p-6 text-sm text-forest/75 shadow-soft">
                 <p className="font-semibold text-forest">Payment</p>
