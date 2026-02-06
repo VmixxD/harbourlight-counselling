@@ -4,6 +4,8 @@ This file captures the current agent-facing requirements based on the latest `pr
 Use it as the single source of truth for cross‑agent coordination and handoffs.
 
 ## Changelog
+- 2026-02-07: Added model-ready prompt pack and production image regeneration checklist.
+- 2026-02-06: Updated imagery direction to earthy NZ textured illustrations with relational, supportive cues.
 - 2026-01-29: Initial agent brief created from `project.md`.
 
 ## Global requirements (all agents)
@@ -93,21 +95,27 @@ Each service page must include:
 - Booking tool choice (embed vs link)
 
 ## Image prompt library (AI-assisted visuals)
-Use minimalist line art, natural New Zealand themes, warm neutrals + greens, soft light, minimal
-compositions. Simple line art people can be included only when they fit the message of the image.
+Use earthy, textured editorial illustrations inspired by Aotearoa New Zealand landscapes. Favor
+matte watercolor/gouache washes, subtle paper grain, soft contour detail, low saturation, and calm
+compositions. People are optional and should be distant/faceless if used.
 
-- Home hero (main image): "Minimalist line art of a soft coastal harbour at dawn, mist rolling over calm water, muted sage and forest linework on warm cream, gentle grain, minimal composition."
-- Home hero alternate: "Minimalist line art of a native NZ bush trail after light rain, soft fog, filtered morning sun, mossy greens and warm neutrals, serene and minimal."
-- About page (secondary image): "Minimalist line art of abstract organic shapes in layered sage, moss, and warm cream, subtle paper texture, soft shadows."
-- Services hub banner: "Triptych-style minimalist line art collage of harbour water, fern canopy, and sunlit sand textures, cohesive palette, soft light."
-- Service hero (Identity & Shame): "Minimalist line art of a single fern unfurling with soft light, symbol of gentleness and growth."
-- Service hero (Relationships): "Minimalist line art of two stones balanced on a tidal rock with gentle ripples, warm dawn light, calming symmetry."
-- Service hero (Burnout & Work Stress): "Minimalist line art of a quiet forest clearing with soft light breaking through, subtle haze, restorative mood."
-- Fees page background: "Minimalist line art with a gentle horizon line and light wash from warm cream to soft sage, subtle paper texture."
-- FAQ header: "Minimalist line art of close-up ripples in still water, soft light, monochrome sage/cream palette."
-- Policies hub banner: "Minimalist line art of soft geometric shapes layered like translucent paper, forest green accents, warm neutral base."
-- Online safety header: "Minimalist line art of a desk by a window, closed laptop, cup of tea, calm, no visible brand logos."
-- Privacy header: "Minimalist line art of an abstract lock icon formed by overlapping leaves, sage/forest palette."
-- Cancellation header: "Minimalist line art of a simple calendar page with soft shadows on warm neutral background."
-- Informed consent header: "Minimalist line art of an open notebook with a blank page, soft light, warm neutral tones."
-- Contact/Book side image: "Minimalist line art of a harbour horizon line with soft fog, gentle gradient sky, tranquil mood."
+Execution files:
+- `docs/brand/IMAGE_PROMPTS.md` (canonical subjects + style rules)
+- `docs/brand/IMAGE_PROMPT_PACK.md` (model-ready prompt variants + rescue lines)
+- `docs/brand/IMAGE_REGEN_CHECKLIST.md` (production replacement + QA workflow)
+
+- Home hero (main image): "Quiet coastal harbour in Aotearoa at first light, soft mist over still water, distant hills, and a calm open sky."
+- Home hero alternate: "Native NZ bush trail after light rain, fern-lined edges, filtered sunlight through canopy, and a gentle sense of forward movement."
+- About page (secondary image): "Layered organic shapes inspired by harbour contours and fern forms, softly overlapping to suggest steadiness, care, and connection."
+- Services hub banner: "Triptych composition blending harbour-water texture, fern canopy forms, and sun-warmed sand tones into one cohesive panoramic scene."
+- Service hero (Identity & Shame): "An unfurling ponga fern koru in soft morning light, conveying self-acceptance and growth at a human pace."
+- Service hero (Relationships): "Two weathered stones resting side by side at a tidal edge with gentle ripples, balanced and connected."
+- Service hero (Burnout & Work Stress): "Quiet forest clearing with filtered sunlight, a resting place, and a soft path leading onward to suggest recovery and steadier rhythm."
+- Fees page background: "Minimal horizon scene where land and water meet in soft focus, with a calm tonal transition from warm cream into sage."
+- FAQ header: "Close view of still harbour-water ripples expanding outward, meditative and simple in muted sage and cream tones."
+- Policies hub banner: "Structured but soft layered forms inspired by shoreline contours and paper-cut shapes, communicating clarity and containment."
+- Online safety header: "Quiet home desk by a window with a closed laptop, notebook, and cup of tea in soft natural light, uncluttered and calm."
+- Privacy header: "Leaf-inspired forms interwoven into a subtle lock motif over natural paper texture, signaling privacy, care, and protection."
+- Cancellation header: "Simple paper calendar and pencil on a warm neutral surface with gentle shadow, clear and calm rather than strict."
+- Informed consent header: "Open notebook with blank pages on a natural desk, soft side light, and a feeling of clarity, collaboration, and unhurried pace."
+- Contact/Book side image: "Wide harbour horizon with low mist and soft gradient sky, evoking steadiness, welcome, and room to begin."

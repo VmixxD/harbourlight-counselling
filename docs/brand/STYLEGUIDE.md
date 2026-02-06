@@ -1,6 +1,6 @@
 # STYLEGUIDE - Harbourlight Counselling
 
-Last updated: 2026-01-29
+Last updated: 2026-02-06
 Source of truth: Tailwind config and `app/globals.css`
 
 This styleguide documents the design tokens and UI conventions currently used in the site.
@@ -125,22 +125,23 @@ Accordions:
 - Maintain consistent max-width (sm/md). Use generous spacing around images.
 - If a caption pill is used, place it below the image rather than overlapping it.
 
-## Line art imagery checklist
+## Illustration imagery checklist
 Use this quick checklist when generating or reviewing AI imagery.
 
 Do:
-- Minimalist line art with natural New Zealand themes.
-- Fine, rounded linework; low-contrast forest/moss on warm cream.
-- Generous negative space and simple compositions.
-- Subtle paper texture or light wash behind the linework.
-- Simple line art people only when it supports the message.
+- Use earthy editorial illustration with natural New Zealand themes.
+- Favor matte watercolor/gouache washes with subtle paper grain.
+- Keep contour lines soft and secondary (not dominant line-art style).
+- Maintain generous negative space and low-saturation palettes.
+- Include gentle relational cues (paired forms, shared spaces, paths) when relevant.
+- Use people only when needed, and keep them distant/faceless.
 
 Don't:
-- Photorealistic, 3D, or glossy effects.
-- High contrast, neon, or harsh shadows.
-- Busy scenes, heavy shading, or dense textures.
-- Clinical or corporate imagery.
-- Detailed faces, hands, or recognisable people.
+- Photorealistic, 3D, glossy, or cinematic effects.
+- Hard black outlines, technical line drawing, or icon-like compositions.
+- High contrast, neon, harsh shadows, or dense detail.
+- Clinical/corporate office scenes or staged therapy stock photos.
+- Recognisable client faces or emotionally charged close-up portraits.
 
 ## CSS utilities
 Defined in `app/globals.css`:

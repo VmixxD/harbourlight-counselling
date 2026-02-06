@@ -1,6 +1,6 @@
 # BRAND_GUIDE - Harbourlight Counselling
 
-Last updated: 2026-01-29
+Last updated: 2026-02-07
 Owner: Product + Design
 
 This guide is written for humans and AI agents. It defines the brand foundations, tone, and visual direction.
@@ -39,8 +39,9 @@ Do not:
 
 ## Visual principles
 - Calm, grounded, nature-forward.
-- Minimalist line art across site imagery, with natural New Zealand themes.
-- Warm neutrals with muted greens; low visual noise.
+- Earthy editorial illustration style, led by matte watercolor/gouache textures with soft contour detail.
+- Natural NZ environments with subtle relational cues (connection, support, steadiness) without identifiable client faces.
+- Warm neutrals with muted greens; low visual noise and low saturation.
 - Generous whitespace, rounded corners, soft shadows.
 
 ## CTA hierarchy and labels
@@ -55,23 +56,26 @@ Do not:
 
 ## Imagery and photography
 Primary image themes:
-- Natural New Zealand motifs (harbour water, bush, ferns, mist, soft light).
-- Minimalist line art with gentle paper texture and lots of negative space.
-- Warm neutral and sage palettes.
+- Natural New Zealand motifs (harbour water, bush, ferns, mist, tidal edges, soft horizon lines).
+- Textured matte illustration (watercolor/gouache wash, subtle paper grain, soft pencil contours).
+- Gentle relational symbolism (paired forms, pathways, shared spaces) that feels supportive and human.
 
 Headshots:
 - Use authentic photography of Vince with soft, natural light.
 - Avoid staged office or handshake imagery.
 
 Do:
-- Favor soft light, muted color, and a quiet atmosphere.
-- Use negative space to allow text overlays.
-- Keep line art simple, breathable, and low contrast.
+- Favor diffused natural light, muted color, and calm atmosphere.
+- Leave open negative space for text overlays.
+- Keep tonal transitions soft and detail intentionally sparse.
+- If people are shown, keep them distant or faceless and non-identifiable.
 
 Do not:
 - Use busy, high-contrast, or high-saturation scenes.
+- Use hard black technical line art as the dominant style.
 - Use photorealistic or 3D-rendered imagery.
 - Use stock imagery that feels clinical or corporate.
+- Use close-up emotional faces, posed therapy scenes, or recognisable client depictions.
 
 ## Iconography
 Icon style must match the current site icons in `components/Icons.tsx`.
@@ -92,14 +96,16 @@ Do not:
 - Use sharp angles or geometric tech styling.
 
 ## Illustration and graphic shapes
-- Minimalist line art with soft organic shapes and subtle paper textures.
-- Avoid high-contrast or neon accents.
+- Use layered organic forms, soft brush/wash textures, and subtle paper grain.
+- Use contour lines only as support, not as the hero style.
 - Keep detail minimal and breathable.
+- Avoid neon accents, rigid geometry, or legal/clinical visual metaphors.
 
 ## Image prompt creator
-Use the consistent illustration prompt system in `docs/brand/IMAGE_PROMPTS.md`.
-That file contains the base prompt, negative prompt, and per-image add-ons for every
-image currently used on the site. It is the source of truth for AI-assisted imagery.
+Use the image prompt system files together:
+- `docs/brand/IMAGE_PROMPTS.md` for canonical subjects and style intent.
+- `docs/brand/IMAGE_PROMPT_PACK.md` for model-ready primary/fallback prompts and rescue lines.
+- `docs/brand/IMAGE_REGEN_CHECKLIST.md` for production replacement workflow and QA.
 
 ## Accessibility and inclusion
 - Prioritise contrast, readable type sizes, and clear focus states.
@@ -112,7 +118,7 @@ Ensure all core content blocks are present per `AGENTS.md`:
 
 ## Brand governance
 - Primary CTA is a single choice sitewide. Do not invent it; confirm with the owner.
-- Any new visual style change should update `docs/brand/STYLEGUIDE.md`.
+- Any new visual style change should update `docs/brand/STYLEGUIDE.md` and `docs/brand/IMAGE_PROMPTS.md`.
 
 ## Fill-in fields (do not guess)
 - Credentials/qualifications
