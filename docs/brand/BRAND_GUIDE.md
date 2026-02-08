@@ -39,7 +39,7 @@ Do not:
 
 ## Visual principles
 - Calm, grounded, nature-forward.
-- Earthy editorial illustration style, led by matte watercolor/gouache textures with soft contour detail.
+- Vintage watercolor illustration style with soft contour detail and warm paper texture.
 - Natural NZ environments with subtle relational cues (connection, support, steadiness) without identifiable client faces.
 - Warm neutrals with muted greens; low visual noise and low saturation.
 - Generous whitespace, rounded corners, soft shadows.
@@ -57,7 +57,7 @@ Do not:
 ## Imagery and photography
 Primary image themes:
 - Natural New Zealand motifs (harbour water, bush, ferns, mist, tidal edges, soft horizon lines).
-- Textured matte illustration (watercolor/gouache wash, subtle paper grain, soft pencil contours).
+- Matte watercolor/gouache scenes with textured paper grain, gentle wash transitions, and calm composition.
 - Gentle relational symbolism (paired forms, pathways, shared spaces) that feels supportive and human.
 
 Headshots:
@@ -65,15 +65,15 @@ Headshots:
 - Avoid staged office or handshake imagery.
 
 Do:
-- Favor diffused natural light, muted color, and calm atmosphere.
+- Favor soft watercolor wash transitions, muted color, and calm atmosphere.
 - Leave open negative space for text overlays.
-- Keep tonal transitions soft and detail intentionally sparse.
+- Keep tonal transitions soft, misty, and detail intentionally sparse.
 - If people are shown, keep them distant or faceless and non-identifiable.
 
 Do not:
 - Use busy, high-contrast, or high-saturation scenes.
-- Use hard black technical line art as the dominant style.
-- Use photorealistic or 3D-rendered imagery.
+- Use photorealistic, 3D-rendered, CGI, or heavily cinematic effects.
+- Use hard black line art, vector-like edges, or thick comic outlines.
 - Use stock imagery that feels clinical or corporate.
 - Use close-up emotional faces, posed therapy scenes, or recognisable client depictions.
 
@@ -95,11 +95,11 @@ Do not:
 - Use filled icons or heavy strokes.
 - Use sharp angles or geometric tech styling.
 
-## Illustration and graphic shapes
-- Use layered organic forms, soft brush/wash textures, and subtle paper grain.
-- Use contour lines only as support, not as the hero style.
+## Abstract overlays and graphic shapes
+- Prefer abstract treatments derived from watercolor washes and natural contour studies.
 - Keep detail minimal and breathable.
-- Avoid neon accents, rigid geometry, or legal/clinical visual metaphors.
+- Use overlays as secondary support, not the primary image style.
+- Avoid neon accents, harsh digital gradients, rigid geometry, and glossy effects.
 
 ## Image prompt creator
 Use the image prompt system files together:

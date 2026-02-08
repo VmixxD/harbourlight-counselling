@@ -28,11 +28,11 @@ export default function ServicesPage() {
             title="Focused support for common themes."
             description="Each service blends warmth, structure, and clear guidance."
           />
-          <div className="overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
+          <div className="w-full overflow-hidden rounded-2xl border border-sage/50 bg-white/80 shadow-lift">
             <img
               src="/images/hlc-services-textures-triptych.png"
-              alt="Collage of coastal water, fern canopy, and sunlit sand textures"
-              className="h-56 w-full object-cover sm:h-64"
+              alt="Watercolor panorama of harbour water, fern canopy, and warm shoreline textures"
+              className="block aspect-[4/1] w-full object-cover object-center lg:aspect-[5/1]"
               loading="lazy"
             />
           </div>

@@ -7,7 +7,7 @@ Purpose: Provide a practical production checklist for regenerating, validating, 
 current AI-assisted imagery set.
 
 ## Scope
-- In scope: all AI-assisted illustration assets used by site pages.
+- In scope: all AI-assisted watercolor illustration assets used by site pages.
 - Out of scope: `public/images/vince-batters.png` (real headshot), `public/images/harbourlight.png` (wordmark).
 
 ## Source files to use
@@ -16,7 +16,7 @@ current AI-assisted imagery set.
 - Brand guardrails: `docs/brand/BRAND_GUIDE.md`, `docs/brand/STYLEGUIDE.md`
 
 ## Preflight
-- [ ] Confirm this visual direction is approved: earthy, textured NZ editorial illustration.
+- [ ] Confirm this visual direction is approved: calm NZ vintage watercolor illustration on textured paper.
 - [ ] Confirm no change to filenames (drop-in replacements only).
 - [ ] Confirm ratio targets before generating.
 - [ ] Create a temporary working folder for candidate exports.
@@ -50,10 +50,13 @@ current AI-assisted imagery set.
 5. Export at target ratio and replace the existing filename.
 
 ## QA criteria (must pass)
-- [ ] Visual style matches earthy watercolor/gouache direction.
-- [ ] Low saturation and soft contrast (no neon, no hard black outlines).
+- [ ] Visual style matches vintage watercolor/gouache illustration direction.
+- [ ] Warm textured-paper feel is visible but subtle.
+- [ ] Muted color grade and soft contrast (no neon, no harsh contrast).
 - [ ] Calm mood and non-clinical tone.
-- [ ] No recognisable faces, no logos, no text artifacts.
+- [ ] Contour linework is delicate and secondary (not heavy or technical).
+- [ ] No photoreal/3D/CGI artifacts.
+- [ ] No recognisable faces, no logos, no readable text artifacts.
 - [ ] Enough negative space for text overlays where headers/heroes need it.
 - [ ] Subject reads clearly at mobile size.
 - [ ] Crop remains coherent at likely responsive trims.

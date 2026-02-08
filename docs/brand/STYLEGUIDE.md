@@ -1,6 +1,6 @@
 # STYLEGUIDE - Harbourlight Counselling
 
-Last updated: 2026-02-06
+Last updated: 2026-02-07
 Source of truth: Tailwind config and `app/globals.css`
 
 This styleguide documents the design tokens and UI conventions currently used in the site.
@@ -125,21 +125,29 @@ Accordions:
 - Maintain consistent max-width (sm/md). Use generous spacing around images.
 - If a caption pill is used, place it below the image rather than overlapping it.
 
-## Illustration imagery checklist
+## Reference image style cues
+Use this as the visual benchmark for generated assets:
+- Hand-painted watercolor/gouache look on warm textured paper.
+- Delicate contour linework (pencil/ink) supporting, not dominating.
+- Misty atmospheric depth with soft transitions between foreground and background.
+- Muted olive, sage, moss, sand, and warm cream tones.
+- Calm compositions with breathing room and low visual noise.
+
+## Watercolor imagery checklist
 Use this quick checklist when generating or reviewing AI imagery.
 
 Do:
-- Use earthy editorial illustration with natural New Zealand themes.
-- Favor matte watercolor/gouache washes with subtle paper grain.
-- Keep contour lines soft and secondary (not dominant line-art style).
+- Use earthy watercolor illustration with natural New Zealand themes.
+- Favor matte watercolor/gouache washes with visible paper grain.
+- Keep contour lines soft and fine, never technical or heavy.
 - Maintain generous negative space and low-saturation palettes.
 - Include gentle relational cues (paired forms, shared spaces, paths) when relevant.
 - Use people only when needed, and keep them distant/faceless.
 
 Don't:
-- Photorealistic, 3D, glossy, or cinematic effects.
-- Hard black outlines, technical line drawing, or icon-like compositions.
-- High contrast, neon, harsh shadows, or dense detail.
+- Photorealistic, 3D, CGI, glossy, or cinematic effects.
+- Hard black outlines, vector-like edges, or comic-style line weight.
+- High contrast, neon accents, harsh shadows, or dense detail.
 - Clinical/corporate office scenes or staged therapy stock photos.
 - Recognisable client faces or emotionally charged close-up portraits.
 
